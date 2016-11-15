@@ -24,10 +24,10 @@ people:
   pic: 2
   position: Master Student 
   social:
-    - title: facebook
-      url: https://www.facebook.com/chenkaiwang1202
     - title: linkedin
       url: https://www.linkedin.com/in/chen-kai-wang-022077132
+    - title: facebook
+      url: https://www.facebook.com/chenkaiwang1202
     #- title: twitter
     #  url: #
 #- name: Diana Petersen
