@@ -10,5 +10,5 @@ alt: A text-mined network visualization and curation system.
 project-date: August 2016
 client: NHRI
 category: Biomedical Text Mining
-description: METastasisWay annotation tool (MET) is an interactive curation system that provides you a powerful and easy-to-use way to access the contents of MetastasisWay and to contribute your reading about the metastatic pathway. MET is developed as browser extensions to make it easy to install and update. With MET, you can constribute your exciting observations while reading or searching on PubMed.
+description: METastasisWay annotation tool (MET) is an interactive curation system that provides you a powerful and easy-to-use way to access the contents of [MetastasisWay]:(http://btm.tmu.edu.tw/metastasisway) and to contribute your reading about the metastatic pathway. MET is developed as browser extensions to make it easy to install and update. With MET, you can constribute your exciting observations while reading or searching on PubMed.
 ---

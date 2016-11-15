@@ -4,14 +4,13 @@ url: https://bigodatamining.github.io/
 # Site settings
 title: BigODM Lab
 email: hjdai@nttu.edu.tw
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
+description: "Big biOmedical (BigO) Data Mining Lab"
 
 # Team names, titles and social links
 people:
 - name: Hong-Jie Dai
   pic: 1
-  position: Lab Director
+  position: Lab Director, Assistant Professor of Department of Computer Science and Information Engineering and Chief of Systems Development Section of of Library and Information Center of National Taitung University
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/hong-jie-dai-990a9625
