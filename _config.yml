@@ -44,14 +44,14 @@ people:
 social:
 #  - title: twitter
 #    url: http://twitter.com/jekyllrb
-#  - title: facebook
-#    url:
 #  - title: stack-overflow
 #    url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket
 #    url: http://bitbucket.org/jekyll
   - title: github
     url: https://github.com/BigODataMining/
+  - title: facebook
+    url: https://www.facebook.com/groups/404559626383286/
 
 # Postal address (add as many lines as necessary)
 address:
