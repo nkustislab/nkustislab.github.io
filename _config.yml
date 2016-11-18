@@ -39,7 +39,16 @@ people:
 #      url: #
 #    - title: google-plus
 #      url: #
-
+- name: Nai-Wen Chang
+  pic: 4
+  position: Research assistant of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica, PhD Student of Bioinformatics of Graduate Institute of Biomedical Electronics and Bioinformatics of National Taiwan University
+  social:
+     -title: facebook
+      url: https://www.facebook.com/naiwun
+#     -title: twitter
+#      url: #
+#     -title: google-plus
+#      url: #
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
 #  - title: twitter
