@@ -33,6 +33,8 @@ people:
   pic: 3
   position: PhD Student of Bioinformatics of Institute of Information Science of Taiwan International Graduate Program of Academia Sinica
   social:
+     - title: linkedin
+       url: https://www.linkedin.com/in/onkar-singh-9ba65763
      - title: facebook
        url: https://www.facebook.com/onkar.singh.735
 #    - title: twitter
@@ -43,6 +45,8 @@ people:
   pic: 4
   position: Research assistant of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica, PhD Student of Bioinformatics of Graduate Institute of Biomedical Electronics and Bioinformatics of National Taiwan University
   social:
+     - title: linkedin
+       url: https://www.linkedin.com/in/nai-wen-chang-44521953
 #    - title: facebook
 #      url: https://www.facebook.com/naiwun
 #    - title: twitter
