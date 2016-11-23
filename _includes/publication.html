@@ -11,7 +11,25 @@
     	<ul class="post-list">
     		{% assign publishedPapers = site.posts | where: 'categories', 'publication' %}
 				{% for post in publishedPapers limit:10 %}
-  				<li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+  				<li>
+  					<article>
+  						<a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
+  							<span class="entry-date">
+  								<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+  							</span>  							
+  						</a>
+  						{% if post.journal %}
+  							{% assign journal = site.data.journal[post.journal] %}
+  							<span class="excerpt">{{journal.full}}
+  								{% if post.type %}
+          					({{post.type}})
+          				{% endif %}
+          			</span>
+          		{% else %}
+          			{% assign author = "Conference" %}
+        			{% endif %}  						
+  					</article>
+  				</li>
 				{% endfor %}
 			</ul>
 		</div>

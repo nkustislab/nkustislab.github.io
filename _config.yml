@@ -1,5 +1,5 @@
 url: https://bigodatamining.github.io
-#url: http://127.0.0.1:4000
+url: http://127.0.0.1:4000
 
 # Site wide configuration
 title: BigODM Lab
@@ -39,7 +39,7 @@ owner:
   name: BigODM Lab
   avatar: bio-photo.jpg
   email: you@email.com
-  disqus-shortname:
+  disqus-shortname: BigODMLab
   twitter: #username
   facebook: https://www.facebook.com/groups/404559626383286/
   github: https://github.com/BigODataMining/
