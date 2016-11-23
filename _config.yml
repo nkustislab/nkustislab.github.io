@@ -6,7 +6,6 @@ locale: en_US
 description: Big biOmedical (BigO) Data Mining Lab
 logo: site-logo.png
 search: true
-url: http://localhost:4000
 
 # Jekyll configuration
 permalink:   /:categories/:title/
