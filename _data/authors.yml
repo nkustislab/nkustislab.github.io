@@ -1,20 +1,68 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
+hjdai:
+  name: Hong-Jie Dai
+  position: Lab Director, Assistant Professor of Department of Computer Science and Information Engineering and Chief of Systems Development Section of Library and Information Center of National Taitung University
+  web: http://bigodatamining.github.io
+  email: hjdai@nttu.edu.tw
+  bio: 
+  avatar: team/1.jpg
+  twitter: 
   google:
-    plus: BillyRick
+    plus: 
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/hong-jie-dai-990a9625
+    - title: facebook
+      url: https://www.facebook.com/hongjie.dai
+    #- title: stack-overflow
+    #  url: #
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
+xd150612:    
+  name: Chen-Kai Wang
+  position: Intern at Intelligent Agents Systems Lab of Institute of Information Science of Academia Sinica, Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University
+  email: xd150612@gmail.com
+  bio: 
+  avatar: team/2.jpg
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/chen-kai-wang-022077132
+    - title: facebook
+      url: https://www.facebook.com/chenkai.wang.12
+    #- title: twitter
+    #  url: #
+
+onkar:
+  name: Onkar Singh
+  position: PhD Student of Bioinformatics of Institute of Information Science of Taiwan International Graduate Program of Academia Sinica
+  email: onkarnims2009@gmail.com
+  bio: 
+  avatar: team/3.jpg
+  social:
+     - title: linkedin
+       url: https://www.linkedin.com/in/onkar-singh-9ba65763
+     - title: facebook
+       url: https://www.facebook.com/onkar.singh.735
+#    - title: twitter
+#      url: #
+#    - title: google-plus
+#      url: #
+
+naiwen:
+  name: Nai-Wen Chang
+  email: naiwun@gmail.com
+  position: Research Assistant of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica, PhD Student of Bioinformatics of Graduate Institute of Biomedical Electronics and Bioinformatics of National Taiwan University
+  bio: 
+  avatar: team/4.jpg
+  twitter: 
   google:
-    plus: CorneliusFiddlebone
+    plus: 
+  social:
+     - title: linkedin
+       url: https://www.linkedin.com/in/nai-wen-chang-44521953
+#    - title: facebook
+#      url: https://www.facebook.com/naiwun
+#    - title: twitter
+#      url: #
+#    - title: google-plus
+#      url: #

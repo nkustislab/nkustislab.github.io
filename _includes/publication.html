@@ -1,0 +1,19 @@
+<!-- Project Grid Section -->
+<section id="publication" class="bg-light-gray">
+	<div class="container">
+  	<div class="row">
+    	<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Publication</h2>
+        <h3 class="section-subheading text-muted">Here list our most recent publications.</h3>
+      </div>
+    </div>
+    <div class="row">
+    	<ul class="post-list">
+    		{% assign publishedPapers = site.posts | where: 'categories', 'publication' %}
+				{% for post in publishedPapers limit:10 %}
+  				<li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a></article></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
