@@ -1,0 +1,15 @@
+---
+title: MET network in PubMed
+subtitle: Bio-Text Mining (Curation Tool)
+layout: home
+modal-id: 1
+date: 2016-08-01
+img: met.png
+thumbnail: met-thumbnail.png
+alt: A text-mined network visualization and curation system.
+project-date: August 2016
+client: NHRI
+category: Biomedical Text Mining
+type: project
+description: <p><a href='https://chrome.google.com/webstore/detail/met/lokpfiaclgdopdmpmapcghojakojiilc' target="_blank">METastasisWay annotation tool</a> (MET) is an interactive curation system that provides you a powerful and easy-to-use way to access the contents of <a href='http://btm.tmu.edu.tw/metastasisway' target="_blank">MetastasisWay</a> and to contribute your reading about the metastatic pathway. MET is developed as browser extensions to make it easy to install and update. With MET, you can constribute your exciting observations while reading or searching on PubMed.</p><p>Fund# MOST 105-2221-E-143-003</p>
+---
