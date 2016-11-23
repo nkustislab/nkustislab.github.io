@@ -1,0 +1,55 @@
+<!-- Software Section -->
+    <section id="software">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Software</h2>
+                    <h3 class="section-subheading text-muted">Here list all of our software.</h3>
+                </div>
+            </div>
+            <div class="row" id="softwareContainer">
+            {% for post in site.posts %}
+            	{% if post.type == 'software' %}
+            		<div>
+							    <div>
+							      <a data-toggle="collapse" data-parent="#softwareContainer" 
+							      	href="#softwareCollapse{{ post.modal-id }}">
+							        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+							      </a>
+							    </div>							    
+							  </div>
+							  <div id="softwareCollapse{{ post.modal-id }}" aria-hidden="true">
+						    	<div class="container">
+						    		<div class="row">
+						    			<div class="col-lg-8 col-lg-offset-2">
+						    				<div class="modal-body">
+						    					<h2>{{ post.title }}</h2>
+						    					<hr class="star-primary">
+						    					<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+						    					<p>{{ post.description }}</p>    								
+						            </div>
+						          </div>  
+						        </div>
+									</div>
+						    </div>
+                <!--div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#softwareCollapse{{ post.modal-id }}" class="portfolio-link" data-toggle="collapse">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div-->
+                
+            	{% endif %}
+            {% endfor %}
+            </div>
+        </div>
+    </section>

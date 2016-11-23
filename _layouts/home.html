@@ -1,0 +1,52 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	{% include head.html %}
+	<!-- Copy from Agency theme-->
+	<!-- Custom Fonts -->
+	<!--link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}"-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ "/home/css/bootstrap.min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/home/css/agency.css" | prepend: site.baseurl }}">
+	<!-- End -->
+</head>
+
+<body id="home">
+
+	{% include home_navigation.html %}
+	<div id="main" role="main">
+		<article class="entry">
+			<!--div class="entry-wrapper">
+				<div class="entry-content"-->
+					{{ content }}
+				<!--/div--><!-- /.entry-content -->
+			<!--/div><!-- /.entry-wrapper -->
+	  </article>
+	</div><!-- /#main -->
+
+	<div class="footer-wrapper">
+  	<footer role="contentinfo" class="entry-wrapper">
+    	{% include footer.html %}
+  	</footer>
+	</div><!-- /.footer-wrapper -->
+
+	{% include scripts.html %}
+	<!-- Copy from Agency theme-->
+	<!-- Bootstrap Core JavaScript -->
+  <script src="{{ "/assets/js/vendor/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+  <!-- Plugin JavaScript -->
+  <script src="{{ "/assets/js/plugins/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+  <!--script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script-->
+	<!-- Custom Theme JavaScript -->
+	<script src="{{ "/assets/js/agency.js" | prepend: site.baseurl }}"></script>
+	<!-- End -->
+</body>
+</html>
