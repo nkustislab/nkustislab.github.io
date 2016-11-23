@@ -1,4 +1,5 @@
 url: https://bigodatamining.github.io
+#url: http://127.0.0.1:4000
 
 # Site wide configuration
 title: BigODM Lab
@@ -56,55 +57,6 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-
-# Team names, titles and social links
-member:
-- name: Hong-Jie Dai
-  pic: 1
-  position: Lab Director, Assistant Professor of Department of Computer Science and Information Engineering and Chief of Systems Development Section of Library and Information Center of National Taitung University
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/hong-jie-dai-990a9625
-    - title: facebook
-      url: https://www.facebook.com/hongjie.dai
-    #- title: stack-overflow
-    #  url: #
-
-- name: Chen-Kai Wang
-  pic: 2
-  position: Intern at Intelligent Agents Systems Lab of Institute of Information Science of Academia Sinica, Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/chen-kai-wang-022077132
-    - title: facebook
-      url: https://www.facebook.com/chenkai.wang.12
-    #- title: twitter
-    #  url: #
-- name: Onkar Singh
-  pic: 3
-  position: PhD Student of Bioinformatics of Institute of Information Science of Taiwan International Graduate Program of Academia Sinica
-  social:
-     - title: linkedin
-       url: https://www.linkedin.com/in/onkar-singh-9ba65763
-     - title: facebook
-       url: https://www.facebook.com/onkar.singh.735
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
-- name: Nai-Wen Chang
-  pic: 4
-  position: Research Assistant of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica, PhD Student of Bioinformatics of Graduate Institute of Biomedical Electronics and Bioinformatics of National Taiwan University
-  social:
-     - title: linkedin
-       url: https://www.linkedin.com/in/nai-wen-chang-44521953
-#    - title: facebook
-#      url: https://www.facebook.com/naiwun
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
-
 
 # Postal address (add as many lines as necessary)
 address:
