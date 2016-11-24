@@ -5,3 +5,7 @@ jbi:
 database:
   full: "Database: The Journal of Biological Databases and Curation"
   url: https://academic.oup.com/database
+
+information:
+  full: "Information"
+  url: http://www.mdpi.com/journal/information
