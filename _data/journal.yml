@@ -13,3 +13,9 @@ information:
 oxford_database:
   full: "Database: The Journal of Biological Databases and Curation"
   url: http://database.oxfordjournals.org/
+  
+bmri:
+  full: "BioMed Research International"
+  url: https://www.hindawi.com/journals/bmri/
+
+  
