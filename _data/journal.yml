@@ -9,3 +9,7 @@ database:
 information:
   full: "Information"
   url: http://www.mdpi.com/journal/information
+  
+oxford_database:
+  full: "Database: The Journal of Biological Databases and Curation"
+  url: http://database.oxfordjournals.org/
