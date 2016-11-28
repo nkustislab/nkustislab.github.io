@@ -1,5 +1,5 @@
 url: https://bigodatamining.github.io
-#url: http://127.0.0.1:4000
+url: http://127.0.0.1:4000
 
 # Site wide configuration
 title: BigODM Lab
@@ -57,6 +57,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+  redmine: http://pubmedex.iis.sinica.edu.tw
 
 # Postal address (add as many lines as necessary)
 address:
