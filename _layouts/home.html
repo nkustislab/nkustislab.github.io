@@ -19,8 +19,11 @@
 </head>
 
 <body id="home">
-
-	{% include home_navigation.html %}
+	{% if page.lang %}
+		{% include home_navigation_{{page.lang}}.html %}
+	{% else %}
+		{% include home_navigation.html %}
+	{% endif %}
 	<div id="main" role="main">
 		<article class="entry">
 			<!--div class="entry-wrapper">
