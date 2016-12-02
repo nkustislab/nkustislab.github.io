@@ -57,6 +57,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+  redmine: http://pubmedex.iis.sinica.edu.tw
 
 # Postal address (add as many lines as necessary)
 address:

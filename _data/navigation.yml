@@ -3,8 +3,8 @@
 - title: Home
   url: 
 
-#- title: Research
-  #url: /research/
+- title: Project
+  url: /project/
 
 - title: Publication
   url: /publication/
@@ -20,3 +20,5 @@
 
 #- title: Search
  # url: /search/
+- title: 中文
+  url: /index_zh.html/
