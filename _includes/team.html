@@ -10,7 +10,14 @@
 		<div class="row">
 			{% for member_hash in site.data.authors %}
 				{% assign member = member_hash[1] %}
-				<div class="col-sm-4">
+				{% assign index = forloop.index | modulo:3 %}
+				<div class=
+					{% if index == 0 %}
+						"col-sm-3"
+					{% else %}
+						"col-sm-4"
+					{% endif %}
+					>					
 					<div class="team-member">
 						<img src="images/{{ member.avatar }}" class="img-responsive img-circle" alt=""/>
 						<h4>{{ member.name }}</h4>
