@@ -20,7 +20,7 @@ hjdai:
 
 xd150612:    
   name: Chen-Kai Wang
-  position: Intern at Intelligent Agents Systems Lab of Institute of Information Science of Academia Sinica, Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University
+  position: Intern of Intelligent Agents Systems Lab of Institute of Information Science of Academia Sinica, Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University
   email: xd150612@gmail.com
   bio: 
   avatar: team/2.jpg
@@ -81,6 +81,25 @@ weisan:
 #      url: #
      - title: facebook
        url: https://www.facebook.com/josan053
+#    - title: twitter
+#      url: #
+#    - title: google-plus
+#      url: #
+
+yungchun:
+  name: Yung-Chun Chang
+  email: changyc@iis.sinica.edu.tw
+  position: Postdoctoral Research Fellow of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica
+  bio: 
+  avatar: team/6.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+     - title: linkedin
+       url: https://www.linkedin.com/in/yung-chun-chang-3237103b
+     - title: facebook
+       url: https://www.facebook.com/yungchun.chang.3
 #    - title: twitter
 #      url: #
 #    - title: google-plus
