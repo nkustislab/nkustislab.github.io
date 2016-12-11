@@ -21,4 +21,11 @@ bmri:
 jcheminform:
   full: "Journal of Cheminformatics"
   url: http://jcheminf.springeropen.com/
-  
+
+ijclclp:
+  full: "International Journal of Computational Linguistics and Chinese Language Processing"
+  url: http://www.aclclp.org.tw/journal/index.php
+
+plos:
+  full: "PLOS ONE"
+  url: http://journals.plos.org/plosone/
