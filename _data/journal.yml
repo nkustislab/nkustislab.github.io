@@ -29,3 +29,11 @@ ijclclp:
 plos:
   full: "PLOS ONE"
   url: http://journals.plos.org/plosone/
+  
+jamia:
+  full: "Journal of the American Medical Informatics Association"
+  url: http://jamia.oxfordjournals.org/
+
+bioinformatics:
+  full: "Bioinformatics"
+  url: http://bioinformatics.oxfordjournals.org/
