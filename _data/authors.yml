@@ -15,22 +15,41 @@ hjdai:
       url: https://www.linkedin.com/in/hong-jie-dai-990a9625
     - title: facebook
       url: https://www.facebook.com/hongjie.dai
-    #- title: stack-overflow
-    #  url: #
+#   - title: stack-overflow
+#     url: #
 
-xd150612:    
+JJ:
+  name: Jitendra Jonnagaddala
+  position: School of Public Health and Community Medicine, University of New South Wales, Australia
+  web: http://bigodatamining.github.io
+  email: z3339253@unsw.edu.au
+  bio: 
+  avatar: team/7.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+#   - title: linkedin
+#     url: #
+#   - title: facebook
+#     url: #
+#   - title: stack-overflow
+#     url: #
+
+chenkai:    
   name: Chen-Kai Wang
   position: Intern of Intelligent Agents Systems Lab of Institute of Information Science of Academia Sinica, Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University
-  email: xd150612@gmail.com
+  web: http://bigodatamining.github.io
+  email: dennisckwang@gmail.com
   bio: 
   avatar: team/2.jpg
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/chen-kai-wang-022077132
     - title: facebook
-      url: https://www.facebook.com/chenkai.wang.12
-    #- title: twitter
-    #  url: #
+      url: https://www.facebook.com/dennisckwang
+#   - title: twitter
+#     url: #
 
 onkar:
   name: Onkar Singh
@@ -60,8 +79,8 @@ naiwen:
   social:
      - title: linkedin
        url: https://www.linkedin.com/in/nai-wen-chang-44521953
-#    - title: facebook
-#      url: https://www.facebook.com/naiwun
+     - title: facebook
+       url: https://www.facebook.com/naiwun
 #    - title: twitter
 #      url: #
 #    - title: google-plus
@@ -77,8 +96,8 @@ weisan:
   google:
     plus: 
   social:
-#    - title: linkedin
-#      url: #
+     - title: linkedin
+       url: https://www.linkedin.com/in/josan053/
      - title: facebook
        url: https://www.facebook.com/josan053
 #    - title: twitter
