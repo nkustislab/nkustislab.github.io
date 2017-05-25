@@ -24,7 +24,7 @@ JJ:
   web: http://bigodatamining.github.io
   email: z3339253@unsw.edu.au
   bio: 
-  avatar: team/7.jpg
+  avatar: team/2.jpg
   twitter: 
   google:
     plus: 
@@ -42,7 +42,7 @@ chenkai:
   web: http://bigodatamining.github.io
   email: dennisckwang@gmail.com
   bio: 
-  avatar: team/2.jpg
+  avatar: team/3.jpg
   social:
     - title: linkedin
       url: https://www.linkedin.com/in/chen-kai-wang-022077132
@@ -50,23 +50,6 @@ chenkai:
       url: https://www.facebook.com/dennisckwang
 #   - title: twitter
 #     url: #
-
-onkar:
-  name: Onkar Singh
-  position: PhD Student of Bioinformatics of Institute of Information Science of Taiwan International Graduate Program of Academia Sinica
-  email: onkarnims2009@gmail.com
-  bio: 
-  avatar: team/3.jpg
-  social:
-     - title: linkedin
-       url: https://www.linkedin.com/in/onkar-singh-9ba65763
-     - title: facebook
-       url: https://www.facebook.com/onkar.singh.735
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
-
 naiwen:
   name: Nai-Wen Chang
   email: naiwun@gmail.com
@@ -86,25 +69,21 @@ naiwen:
 #    - title: google-plus
 #      url: #
 
-weisan:
-  name: Wei-San Lin
-  email: josan053@hotmail.com
-  position: Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University
+onkar:
+  name: Onkar Singh
+  position: PhD Student of Bioinformatics of Institute of Information Science of Taiwan International Graduate Program of Academia Sinica
+  email: onkarnims2009@gmail.com
   bio: 
   avatar: team/5.jpg
-  twitter: 
-  google:
-    plus: 
   social:
      - title: linkedin
-       url: https://www.linkedin.com/in/josan053/
+       url: https://www.linkedin.com/in/onkar-singh-9ba65763
      - title: facebook
-       url: https://www.facebook.com/josan053
+       url: https://www.facebook.com/onkar.singh.735
 #    - title: twitter
 #      url: #
 #    - title: google-plus
 #      url: #
-
 yungchun:
   name: Yung-Chun Chang
   email: changyc@iis.sinica.edu.tw
@@ -119,6 +98,24 @@ yungchun:
        url: https://www.linkedin.com/in/yung-chun-chang-3237103b
      - title: facebook
        url: https://www.facebook.com/yungchun.chang.3
+#    - title: twitter
+#      url: #
+#    - title: google-plus
+#      url: #
+weisan:
+  name: Wei-San Lin
+  email: josan053@hotmail.com
+  position: Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University
+  bio: 
+  avatar: team/7.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+     - title: linkedin
+       url: https://www.linkedin.com/in/josan053/
+     - title: facebook
+       url: https://www.facebook.com/josan053
 #    - title: twitter
 #      url: #
 #    - title: google-plus
