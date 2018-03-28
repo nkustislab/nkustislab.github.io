@@ -8,18 +8,16 @@
                 </div>
             </div>
             <div class="row" id="softwareContainer">
-            {% for post in site.posts %}
-            	{% if post.type == 'software' %}
+           	{% assign softwares = site.posts | where: 'categories', 'software' %}
+    					{% for post in softwares %}
             		<div>
 							    <div>
-							      <a data-toggle="collapse" data-parent="#softwareContainer" 
-							      	href="#softwareCollapse{{ post.modal-id }}">
-							        <h4>{{ post.title }}</h4>
+							      <h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }} </a></h4>
                         <p class="text-muted">{{ post.subtitle }}</p>
 							      </a>
 							    </div>							    
 							  </div>
-							  <div id="softwareCollapse{{ post.modal-id }}" aria-hidden="true">
+							  <!--div id="softwareCollapse{{ post.modal-id }}" aria-hidden="true">
 						    	<div class="container">
 						    		<div class="row">
 						    			<div class="col-lg-8 col-lg-offset-2">
@@ -32,7 +30,7 @@
 						          </div>  
 						        </div>
 									</div>
-						    </div>
+						    </div-->
                 <!--div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#softwareCollapse{{ post.modal-id }}" class="portfolio-link" data-toggle="collapse">
                         <div class="portfolio-hover">
@@ -46,9 +44,7 @@
                         <h4>{{ post.title }}</h4>
                         <p class="text-muted">{{ post.subtitle }}</p>
                     </div>
-                </div-->
-                
-            	{% endif %}
+                </div-->                
             {% endfor %}
             </div>
         </div>
