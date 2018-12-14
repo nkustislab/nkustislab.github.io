@@ -2,7 +2,7 @@
 
 hjdai:
   name: Hong-Jie Dai
-  position: Lab Director, Assistant Professor of Department of Computer Science and Information Engineering and Chief of Systems Development Section of Library and Information Center of National Taitung University
+  position: Lab Director, Associate Professor of Department of Computer Science and Information Engineering and Associate Professor of Interdisciplinary Program of Green and Information Technology of National Taitung University, Taitung, Taiwan, R.O.C.
   web: http://bigodatamining.github.io
   email: hjdai@nttu.edu.tw
   bio: 
@@ -20,7 +20,7 @@ hjdai:
 
 JJ:
   name: Jitendra Jonnagaddala
-  position: School of Public Health and Community Medicine, University of New South Wales, Australia
+  position: Research Fellow of School of Public Health and Community Medicine, University of New South Wales, Sydney, Australia
   web: http://bigodatamining.github.io
   email: z3339253@unsw.edu.au
   bio: 
@@ -38,7 +38,7 @@ JJ:
 
 chenkai:    
   name: Chen-Kai Wang
-  position: Intern of Intelligent Agents Systems Lab of Institute of Information Science of Academia Sinica, Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University
+  position: Associate Researcher of Big Data laboratories of Chunghwa Telecom Laboratories, Taoyuan, Taiwan, R.O.C.
   web: http://bigodatamining.github.io
   email: dennisckwang@gmail.com
   bio: 
@@ -54,7 +54,7 @@ chenkai:
 naiwen:
   name: Nai-Wen Chang
   email: naiwun@gmail.com
-  position: Research Assistant of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica, PhD Student of Bioinformatics of Graduate Institute of Biomedical Electronics and Bioinformatics of National Taiwan University
+  position: Research Assistant of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica, PhD Student of Bioinformatics of Graduate Institute of Biomedical Electronics and Bioinformatics of National Taiwan University, Taipei, Taiwan, R.O.C.
   bio: 
   avatar: team/4.jpg
   twitter: 
@@ -72,7 +72,7 @@ naiwen:
 
 onkar:
   name: Onkar Singh
-  position: PhD Student of Bioinformatics of Institute of Information Science of Taiwan International Graduate Program of Academia Sinica
+  position: PhD Student of Bioinformatics of Institute of Information Science of Taiwan International Graduate Program of Academia Sinica, Taipei, Taiwan, R.O.C.
   email: onkarnims2009@gmail.com
   bio: 
   avatar: team/5.jpg
@@ -88,7 +88,7 @@ onkar:
 yungchun:
   name: Yung-Chun Chang
   email: changyc@iis.sinica.edu.tw
-  position: Postdoctoral Research Fellow of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica
+  position: Assistant Professor of Graduate Institute of Data Science/Bachelor Program in Data Science and Management of Taipei Medical University, Taipei, Taiwan, R.O.C.
   bio: 
   avatar: team/6.jpg
   twitter: 
@@ -124,9 +124,17 @@ weisan:
 
 Frank:
   name: Feng-Duo Wang
-  position: College Student of the Department of Computer Science and Information Engineering of National Taitung University, Taiwan
+  position: Senior Student of Department of Computer Science and Information Engineering of National Taitung University, Taitung, Taiwan, R.O.C.
   email: nn19680901@gmail.com
   bio: 
   avatar: team/8.jpg
 #   - title: twitter
 #     url: #
+
+Jason:
+  name: Chu-Hsien Su
+  position: Research Assistant of National Taiwan University Hospital of Department of Psychiatry
+  email: a25716211@gmail.com
+  bio:
+  avatar: team/9.jpg
+  
