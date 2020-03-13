@@ -29,10 +29,10 @@ JJ:
   google:
     plus: 
   social:
-#   - title: linkedin
-#     url: #
-#   - title: facebook
-#     url: #
+  - title: linkedin
+    url: #
+  - title: facebook
+    url: #
 #   - title: stack-overflow
 #     url: #
 
@@ -117,7 +117,7 @@ weisan:
        url: https://www.linkedin.com/in/josan053/
      - title: facebook
        url: https://www.facebook.com/josan053
-#    - title: twitter
+#    - title: twitte
 #      url: #
 #    - title: google-plus
 #      url: #chenkai:
@@ -128,6 +128,11 @@ Frank:
   email: nn19680901@gmail.com
   bio: 
   avatar: team/8.jpg
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: 
 #   - title: twitter
 #     url: #
 
@@ -137,4 +142,11 @@ Jason:
   email: a25716211@gmail.com
   bio:
   avatar: team/9.jpg
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: 
+  #   - title: stack-overflow
+#     url: #
   
