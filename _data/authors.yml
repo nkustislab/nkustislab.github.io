@@ -104,24 +104,31 @@ Frank:
   email: nn19680901@gmail.com
   bio: 
   avatar: team/8.jpg
-
-Jason:
-  name: Chu-Hsien Su
-  position: Research Assistant of National Taiwan University Hospital of Department of Psychiatry, Taipei, Taiwan, R.O.C.
-  email: a25716211@gmail.com
-  bio:
-  avatar: team/9.jpg
   
 Youqian:
   name: You-Qian Lee
   position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology, Kaohsiung, Taiwan, R.O.C.
   email: f109154125@nkust.edu.tw
   bio:
-  avatar: team/10.jpg
+  avatar: team/9.jpg
   
 Bohong:
-  name: Bo-Hung Wang
+  name: Bo-Hong Wang
   position: Master Student of Department of Electrical Engineering of National Sun Yat-sen University, Kaohsiung, Taiwan, R.O.C.
   email: s94061910@gmail.com
   bio:
+  avatar: team/10.jpg
+  
+Youchen:
+  name: You-Chen Zhang
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology, Kaohsiung, Taiwan, R.O.C.
+  email: uchenzhang0220@gmail.com
+  bio:
   avatar: team/11.jpg
+  
+Jason:
+  name: Chu-Hsien Su
+  position: Research Assistant of National Taiwan University Hospital of Department of Psychiatry, Taipei, Taiwan, R.O.C.
+  email: a25716211@gmail.com
+  bio:
+  avatar: team/12.jpg
