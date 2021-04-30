@@ -1,3 +1,6 @@
+
+
+
 <!-- Team Section -->
 <section id="team" class="bg-light-gray">
 	<div class="container">
@@ -28,6 +31,40 @@
 				</div>
 			{% endfor %}
 		</div>
+		
+		<!-- cooperation partner -->
+<section id="team" class="bg-light-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">合作夥伴</h2>
+				<!--h3 class="section-subheading text-muted">We cooperate with the Institute of Information Science, Academia Sinica, Graduate Institute of Biomedical Informatics, Taipei Medical University and School of Public Health and Community Medicine, University of New South Wales.</h3-->
+			</div>
+		</div>
+        <div class="row">
+			{% for member_hash in site.data.authors2 %}
+				{% assign member = member_hash[1] %}
+				<div class="col-sm-3">					
+					<div class="team-member">
+						<img src="/images/{{ member.avatar }}" class="img-responsive img-circle" alt=""/>
+						<h4>{{ member.name }}</h4>
+						<p class="text-muted">{{ member.position }}</p>
+						<ul class="list-inline social-buttons">
+							{% for network in member.social %}
+								<li>
+									<a href="{{ network.url }}">
+										<i class="fa fa-{{ network.title }}"></i>
+									</a>
+                </li>
+              {% endfor %}
+            </ul>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+
+ 
+		
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
 				<p class="large text-muted">本實驗室目前與、中央研究院資訊科學研究所、台北醫學大學醫學資訊研究所、國家衛生研究院、高雄醫學大學，及新南威爾斯大學癌症轉譯研究網路有相關的合作。對我們的研究有興趣的團隊也期待您與我們聯繫！</p>

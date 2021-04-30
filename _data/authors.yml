@@ -18,11 +18,11 @@ hjdai:
 #   - title: stack-overflow
 #     url: #
 
-JJ:
-  name: Jitendra Jonnagaddala
-  position: Research Fellow of School of Public Health and Community Medicine, University of New South Wales, Sydney, Australia
+You-Qian Lee:
+  name: You-Qian Lee
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.                  
   web: http://bigodatamining.github.io
-  email: z3339253@unsw.edu.au
+  email: #
   bio: 
   avatar: team/2.jpg
   twitter: 
@@ -32,29 +32,29 @@ JJ:
   - title: linkedin
     url: #
   - title: facebook
-    url: #
+    url: https://www.facebook.com/profile.php?id=100003333577045
 #   - title: stack-overflow
 #     url: #
 
-chenkai:    
-  name: Chen-Kai Wang
-  position: Associate Researcher of Big Data laboratories of Chunghwa Telecom Laboratories, Taoyuan, Taiwan, R.O.C.
+You-Chen Zhang:    
+  name: You-Chen Zhang
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
   web: http://bigodatamining.github.io
-  email: dennisckwang@gmail.com
+  email: #
   bio: 
   avatar: team/3.jpg
   social:
     - title: linkedin
-      url: https://www.linkedin.com/in/chen-kai-wang-022077132
+      url: #
     - title: facebook
-      url: https://www.facebook.com/dennisckwang
+      url: #
 #   - title: twitter
 #     url: #
 
-naiwen:
-  name: Nai-Wen Chang
-  email: naiwun@gmail.com
-  position: Research Assistant of Intelligent Agent Systems Lab of Institute of Information Science of Academia Sinica, PhD Student of Bioinformatics of Graduate Institute of Biomedical Electronics and Bioinformatics of National Taiwan University, Taipei, Taiwan, R.O.C.
+Guan-Ying Chen:
+  name: Guan-Ying Chen
+  email: 
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
   bio: 
   avatar: team/4.jpg
   twitter: 
@@ -62,91 +62,26 @@ naiwen:
     plus: 
   social:
      - title: linkedin
-       url: https://www.linkedin.com/in/nai-wen-chang-44521953
+       url: #
      - title: facebook
-       url: https://www.facebook.com/naiwun
+       url: https://www.facebook.com/profile.php?id=100001967966464
 #    - title: twitter
 #      url: #
 #    - title: google-plus
 #      url: #
 
-onkar:
-  name: Onkar Singh
-  position: PhD Student of Bioinformatics of Institute of Information Science of Taiwan International Graduate Program of Academia Sinica, Taipei, Taiwan, R.O.C.
+Chung-Xsing Liu:
+  name: Chung-Hsin Liu
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
   email: onkarnims2009@gmail.com
   bio: 
   avatar: team/5.jpg
   social:
      - title: linkedin
-       url: https://www.linkedin.com/in/onkar-singh-9ba65763
+       url: #
      - title: facebook
-       url: https://www.facebook.com/onkar.singh.735
+       url: https://www.facebook.com/profile.php?id=100000331235485
 #    - title: twitter
 #      url: #
 #    - title: google-plus
 #      url: #
-yungchun:
-  name: Yung-Chun Chang
-  email: changyc@iis.sinica.edu.tw
-  position: Assistant Professor of Graduate Institute of Data Science/Bachelor Program in Data Science and Management of Taipei Medical University, Taipei, Taiwan, R.O.C.
-  bio: 
-  avatar: team/6.jpg
-  twitter: 
-  google:
-    plus: 
-  social:
-     - title: linkedin
-       url: https://www.linkedin.com/in/yung-chun-chang-3237103b
-     - title: facebook
-       url: https://www.facebook.com/yungchun.chang.3
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
-weisan:
-  name: Wei-San Lin
-  email: josan053@hotmail.com
-  position: Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University, Taipei, Taiwan, R.O.C.
-  bio: 
-  avatar: team/7.jpg
-  twitter: 
-  google:
-    plus: 
-  social:
-     - title: linkedin
-       url: https://www.linkedin.com/in/josan053/
-     - title: facebook
-       url: https://www.facebook.com/josan053
-#    - title: twitte
-#      url: #
-#    - title: google-plus
-#      url: #chenkai:
-
-Frank:
-  name: Feng-Duo Wang
-  position: Senior Student of Department of Computer Science and Information Engineering of National Taitung University, Taitung, Taiwan, R.O.C.
-  email: nn19680901@gmail.com
-  bio: 
-  avatar: team/8.jpg
-  social:
-     - title: linkedin
-       url: 
-     - title: facebook
-       url: 
-#   - title: twitter
-#     url: #
-
-Jason:
-  name: Chu-Hsien Su
-  position: Research Assistant of National Taiwan University Hospital of Department of Psychiatry, Taipei, Taiwan, R.O.C.
-  email: a25716211@gmail.com
-  bio:
-  avatar: team/9.jpg
-  social:
-     - title: linkedin
-       url: 
-     - title: facebook
-       url: 
-  #   - title: stack-overflow
-#     url: #
-  

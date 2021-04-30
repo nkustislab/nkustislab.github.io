@@ -1,7 +1,7 @@
 ---
 layout: home
-title: 資料探勘與智慧型系統實驗室
-excerpt: "Big biOmedical (BigO) Data Mining Lab"
+title: 智慧型系統實驗室
+excerpt: "Intelligent System Lab"
 search_omit: true
 lang: zh_TW
 image:
