@@ -1,0 +1,11 @@
+I"<p>SPRENO (Species Recognition and Normalization) is a C# library established for recognizing organism terms mentioned in figure captions of biomedical literatures and linking them to the NCBI taxonomy database by exploiting the contextual information from both the figure caption and the corresponding full text.</p>
+
+<p>The tool is available at https://www.nuget.org/packages/NTTU.BigODM.Bio.NER.Species/, which includes the following core classes used by the “SPRENO” system developed for the Bio-ID track of BioCreative VI.</p>
+
+<ul>
+  <li>BioIDTokenizer: The tokenizer developed for the Bio-ID track.</li>
+  <li>BioIDOrganismRecognizer: The core of SPRENO.</li>
+</ul>
+
+<p>For linux user, please consider to use <a href="http://www.mono-project.com/">Mono</a>.</p>
+:ET
