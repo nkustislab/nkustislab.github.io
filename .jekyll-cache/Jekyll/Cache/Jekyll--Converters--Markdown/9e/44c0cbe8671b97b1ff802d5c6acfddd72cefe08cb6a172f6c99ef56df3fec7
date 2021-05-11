@@ -1,0 +1,18 @@
+I"!<h2 id="abstract">Abstract</h2>
+
+<p>Objective</p>
+
+<p>An adverse drug event (ADE) refers to an injury resulting from medical intervention related to a drug including harm caused by drugs or from the usage of drugs. Extracting ADEs from clinical records can help physicians associate adverse events to targeted drugs.</p>
+
+<p>Methods</p>
+
+<p>We proposed a cascading architecture to recognize medical concepts including ADEs, drug names, and entities related to drugs. The architecture includes a preprocessing method and an ensemble of conditional random fields (CRFs) and neural network–based models to respectively address the challenges of surrogate string and overlapping annotation boundaries observed in the employed ADEs and medication extraction (ADME) corpus. The effectiveness of applying different pretrained and postprocessed word embeddings for the ADME task was also studied.</p>
+
+<p>Results</p>
+
+<p>The empirical results showed that both CRFs and neural network–based models provide promising solution for the ADME task. The neural network–based models particularly outperformed CRFs in concept types involving narrative descriptions. Our best run achieved an overall micro F-score of 0.919 on the employed corpus. Our results also suggested that the Global Vectors for word representation embedding in general domain provides a very strong baseline, which can be further improved by applying the principal component analysis to generate more isotropic vectors.</p>
+
+<p>Conclusions</p>
+
+<p>We have demonstrated that the proposed cascading architecture can handle the problem of overlapped annotations and further improve the overall recall and F-scores because the architecture enables the developed models to exploit more context information and forms an ensemble for creating a stronger recognizer.</p>
+:ET

@@ -37,3 +37,23 @@ jamia:
 bioinformatics:
   full: "Bioinformatics"
   url: http://bioinformatics.oxfordjournals.org/
+
+ijmi:
+  full: "International Journal of Medical Informatics"
+  url: https://www.journals.elsevier.com/international-journal-of-medical-informatics/
+
+BMC:
+  full: "BMC Medical Informatics and Decision Making"
+  url: https://bmcmedinformdecismak.biomedcentral.com/
+
+jad:
+  full: "Journal of Affective Disorders"
+  url: https://www.sciencedirect.com/journal/journal-of-affective-disorders/
+
+jmir:
+  full: "JMIR Publications"
+  url: https://jmirpublications.com/
+  
+frontiers:
+  full: "Frontiers in Psychiatry"
+  url: https://www.frontiersin.org/journals/psychiatry
