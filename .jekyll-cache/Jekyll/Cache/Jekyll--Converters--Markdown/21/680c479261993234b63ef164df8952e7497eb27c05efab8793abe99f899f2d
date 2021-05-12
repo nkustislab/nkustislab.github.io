@@ -1,4 +1,4 @@
-I"L<!-- Research Section -->
+I"Ü~<!-- Research Section -->
 <section id="research">
 	<div class="container">
 		<div class="row">
@@ -52,7 +52,7 @@
 						
 		      	<div>
 						   <div>
-						     <h4><a href="https://nkustislab.github.io/software/201901/">MRI</a></h4>
+						     <h4><a href="http://127.0.0.1:4000/software/201901/">MRI</a></h4>
 		                 <p class="text-muted">MicroRNA Identification (MRI): A RESTful web service for identifying miRNAs from literature and a corpus for miRNA identification.</p>
 						   </div>							    
 						 </div>
@@ -87,7 +87,7 @@
 		      	
 		      	<div>
 						   <div>
-						     <h4><a href="https://nkustislab.github.io/software/201801/">SPRENO</a></h4>
+						     <h4><a href="http://127.0.0.1:4000/software/201801/">SPRENO</a></h4>
 		                 <p class="text-muted">A BioC module for identifying organism terms in figure captions</p>
 						   </div>							    
 						 </div>
@@ -122,7 +122,7 @@
 		      	
 		      	<div>
 						   <div>
-						     <h4><a href="https://nkustislab.github.io/software/201501/">nttmuClinical.NET</a></h4>
+						     <h4><a href="http://127.0.0.1:4000/software/201501/">nttmuClinical.NET</a></h4>
 		                 <p class="text-muted">A C# library for processing discharge summaries.</p>
 						   </div>							    
 						 </div>
@@ -157,7 +157,7 @@
 		      	
 		      	<div>
 						   <div>
-						     <h4><a href="https://nkustislab.github.io/software/201301/">T-HOD</a></h4>
+						     <h4><a href="http://127.0.0.1:4000/software/201301/">T-HOD</a></h4>
 		                 <p class="text-muted">A literature-based candidate gene database for hypertension, obesity and diabetes.</p>
 						   </div>							    
 						 </div>
@@ -192,7 +192,7 @@
 		      	
 		      	<div>
 						   <div>
-						     <h4><a href="https://nkustislab.github.io/software/200901/">PubMed-EX</a></h4>
+						     <h4><a href="http://127.0.0.1:4000/software/200901/">PubMed-EX</a></h4>
 		                 <p class="text-muted">A web browser extension to enhance PubMed search with text mining features.</p>
 						   </div>							    
 						 </div>
@@ -227,7 +227,7 @@
 		      	
 		      	<div>
 						   <div>
-						     <h4><a href="https://nkustislab.github.io/software/200801/">BIOSMILE Web Search</a></h4>
+						     <h4><a href="http://127.0.0.1:4000/software/200801/">BIOSMILE Web Search</a></h4>
 		                 <p class="text-muted">A web-based PubMed-like search application power with semantic analysis</p>
 						   </div>							    
 						 </div>
@@ -323,7 +323,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/202101/">Deep Learning-Based Natural Language Processing for Screening Psychiatric Patients 
+  						<a href="http://127.0.0.1:4000/publication/202101/">Deep Learning-Based Natural Language Processing for Screening Psychiatric Patients 
   							<span class="entry-date">
   								<time datetime="2021-01-15T00:00:00+08:00">January 15, 2021</time>
   							</span>  							
@@ -341,7 +341,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/202004/">Family History Information Extraction With Neural Attention and an Enhanced Relation-Side Scheme: Algorithm Development and Validation 
+  						<a href="http://127.0.0.1:4000/publication/202004/">Family History Information Extraction With Neural Attention and an Enhanced Relation-Side Scheme: Algorithm Development and Validation 
   							<span class="entry-date">
   								<time datetime="2020-12-01T00:00:00+08:00">December 01, 2020</time>
   							</span>  							
@@ -359,7 +359,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/202003/">Cohort selection for clinical trials using multiple instance learning 
+  						<a href="http://127.0.0.1:4000/publication/202003/">Cohort selection for clinical trials using multiple instance learning 
   							<span class="entry-date">
   								<time datetime="2020-07-01T00:00:00+08:00">July 01, 2020</time>
   							</span>  							
@@ -377,7 +377,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/202002/">Using text mining to extract depressive symptoms and to validate the diagnosis of major depressive disorder from electronic health records 
+  						<a href="http://127.0.0.1:4000/publication/202002/">Using text mining to extract depressive symptoms and to validate the diagnosis of major depressive disorder from electronic health records 
   							<span class="entry-date">
   								<time datetime="2020-01-01T00:00:00+08:00">January 01, 2020</time>
   							</span>  							
@@ -395,7 +395,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/202001/">Adverse drug event and medication extraction in electronic health records via a cascading architecture with different sequence labeling models and word embeddings 
+  						<a href="http://127.0.0.1:4000/publication/202001/">Adverse drug event and medication extraction in electronic health records via a cascading architecture with different sequence labeling models and word embeddings 
   							<span class="entry-date">
   								<time datetime="2020-01-01T00:00:00+08:00">January 01, 2020</time>
   							</span>  							
@@ -413,7 +413,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/201904/">Family member information extraction via neural sequence labeling models with different tag schemes 
+  						<a href="http://127.0.0.1:4000/publication/201904/">Family member information extraction via neural sequence labeling models with different tag schemes 
   							<span class="entry-date">
   								<time datetime="2019-12-27T00:00:00+08:00">December 27, 2019</time>
   							</span>  							
@@ -431,7 +431,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/201903/">Classifying adverse drug reactions from imbalanced twitter data 
+  						<a href="http://127.0.0.1:4000/publication/201903/">Classifying adverse drug reactions from imbalanced twitter data 
   							<span class="entry-date">
   								<time datetime="2019-09-01T00:00:00+08:00">September 01, 2019</time>
   							</span>  							
@@ -449,7 +449,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/201902/">Statistical principle-based approach for recognizing and normalizing microRNAs described in scientific literature 
+  						<a href="http://127.0.0.1:4000/publication/201902/">Statistical principle-based approach for recognizing and normalizing microRNAs described in scientific literature 
   							<span class="entry-date">
   								<time datetime="2019-02-27T00:00:00+08:00">February 27, 2019</time>
   							</span>  							
@@ -467,7 +467,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/201901/">Overview of the BioCreative VI Precision Medicine Track: mining protein interactions and mutations for precision medicine 
+  						<a href="http://127.0.0.1:4000/publication/201901/">Overview of the BioCreative VI Precision Medicine Track: mining protein interactions and mutations for precision medicine 
   							<span class="entry-date">
   								<time datetime="2019-01-28T00:00:00+08:00">January 28, 2019</time>
   							</span>  							
@@ -485,7 +485,7 @@
 				
   				<li>
   					<article>
-  						<a href="https://nkustislab.github.io/publication/201802/">Assessing the severity of positive valence symptoms in initial psychiatric evaluation records: Should we use convolutional neural networks? 
+  						<a href="http://127.0.0.1:4000/publication/201802/">Assessing the severity of positive valence symptoms in initial psychiatric evaluation records: Should we use convolutional neural networks? 
   							<span class="entry-date">
   								<time datetime="2018-10-16T00:00:00+08:00">October 16, 2018</time>
   							</span>  							

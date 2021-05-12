@@ -1,10 +1,10 @@
-I"Y<h1 id="mirna-rfam-normalization-corpus">MiRNA Rfam Normalization Corpus</h1>
+I"R<h1 id="mirna-rfam-normalization-corpus">MiRNA Rfam Normalization Corpus</h1>
 
 <p>MiRNA Rfam Normalization Corpus was based on the miRNA interaction corpus (MIC) released by Bagewadi et al. which was available at <a href="https://www.scai.fraunhofer.de/en/business-research-areas/bioinformatics/downloads/download-mirna-test-corpus.html">here</a>.</p>
 
 <p>The corpus included the annotations of Rfam IDs to each annotated miRNA mention by two our annotators.</p>
 
-<p>You can download the corpus from <a href="https://nkustislab.github.io/software/corpus/mic_rfam_v1.0.zip">here</a></p>
+<p>You can download the corpus from <a href="http://127.0.0.1:4000/software/corpus/mic_rfam_v1.0.zip">here</a></p>
 
 <h1 id="mri-web-service">MRI web service</h1>
 
