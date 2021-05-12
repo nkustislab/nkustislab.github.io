@@ -1,16 +1,0 @@
-I"<ul class="post-list">
- 
-  <li><article><a href="http://127.0.0.1:4000/software/201901/">MRI <span class="entry-date"><time datetime="2019-01-01T00:00:00+08:00">January 01, 2019</time></span> <span class="excerpt">MiRNA Rfam Normalization Corpus</span></a></article></li>
- 
-  <li><article><a href="http://127.0.0.1:4000/software/201801/">SPRENO <span class="entry-date"><time datetime="2018-01-01T00:00:00+08:00">January 01, 2018</time></span> <span class="excerpt">SPRENO (Species Recognition and Normalization) is a C# library established for recognizing organism terms mentioned in figure captions of biomedical literatures and linking them to the NCBI taxonomy database by exploiting the contextual information from both the figure caption and the corresponding full text.</span></a></article></li>
- 
-  <li><article><a href="http://127.0.0.1:4000/software/201501/">nttmuClinical.NET <span class="entry-date"><time datetime="2015-05-01T00:00:00+08:00">May 01, 2015</time></span> <span class="excerpt">nttmuClinical.NET is a set of C# library developed for processing discharge summaries.nttmuClinical.NET was built using Microsoft .NET Framework 4. It’s components were developed based on the data set of the i2b2 2014 shared task track 2.nttmuClinical.NET employs a number of rule-based and machine learning methods. It also integrates several state-of-the-art natural language processing components available on the NuGet Gallery.</span></a></article></li>
- 
-  <li><article><a href="http://127.0.0.1:4000/software/201301/">T-HOD <span class="entry-date"><time datetime="2013-02-12T00:00:00+08:00">February 12, 2013</time></span> <span class="excerpt">Description</span></a></article></li>
- 
-  <li><article><a href="http://127.0.0.1:4000/software/200901/">PubMed-EX <span class="entry-date"><time datetime="2009-11-15T00:00:00+08:00">November 15, 2009</time></span> <span class="excerpt">PubMed-EX is a browser extension that marks up PubMed search results with additional text-mining information. PubMed-EX’s page mark-up, which includes section categorization and gene/disease and relation mark-up, can help researchers to quickly focus on key terms and provide additional information on them. All text processing is performed server-side, freeing up user resources.</span></a></article></li>
- 
-  <li><article><a href="http://127.0.0.1:4000/software/200801/">BIOSMILE Web Search <span class="entry-date"><time datetime="2008-07-01T00:00:00+08:00">July 01, 2008</time></span> <span class="excerpt">A web-based NCBI-PubMed search application, which can analyze articles for selected biomedical verbs and give users relational information, such as subject, object, location, manner, time, etc. After receiving keyword query input, BWS retrieves matching PubMed abstracts and lists them along with snippets by order of relevancy to protein-protein interaction. Users can then select articles for further analysis, and BWS will find and mark up biomedical relations in the text. The analysis results can be viewed in the abstract text or in table form.</span></a></article></li>
-
-</ul>
-:ET
