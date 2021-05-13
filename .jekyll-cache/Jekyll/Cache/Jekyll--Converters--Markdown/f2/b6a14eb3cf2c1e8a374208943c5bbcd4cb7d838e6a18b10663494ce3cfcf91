@@ -1,0 +1,2 @@
+I"><p>SPRENO (Species Recognition and Normalization) is a C# library established for recognizing organism terms mentioned in figure captions of biomedical literatures and linking them to the NCBI taxonomy database by exploiting the contextual information from both the figure caption and the corresponding full text.</p>
+:ET
