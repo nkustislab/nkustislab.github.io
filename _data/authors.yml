@@ -15,6 +15,8 @@ hjdai:
       url: https://www.linkedin.com/in/hong-jie-dai-990a9625
     - title: facebook
       url: https://www.facebook.com/hongjie.dai
+#   - title: stack-overflow
+#     url: #
 
 You-Qian Lee:
   name: You-Qian Lee
@@ -27,7 +29,6 @@ You-Qian Lee:
   google:
     plus: 
   social:
-<<<<<<< HEAD
   - title: linkedin
     url: #
   - title: facebook
@@ -38,12 +39,6 @@ You-Qian Lee:
 You-Chen Zhang:    
   name: You-Chen Zhang
   position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-=======
-
-chenkai:    
-  name: Chen-Kai Wang
-  position: Associate Researcher of Big Data laboratories of Chunghwa Telecom Laboratories, PhD Student of Department of Computer Science of National Chiao Tung University, Taoyuan, Taiwan, R.O.C.
->>>>>>> 590a5879f6092bde179505c57bd2d08f76142a8f
   web: http://bigodatamining.github.io
   email: #
   bio: 
@@ -52,13 +47,9 @@ chenkai:
     - title: linkedin
       url: #
     - title: facebook
-<<<<<<< HEAD
       url: #
 #   - title: twitter
 #     url: #
-=======
-      url: https://www.facebook.com/dennisckwang
->>>>>>> 590a5879f6092bde179505c57bd2d08f76142a8f
 
 Guan-Ying Chen:
   name: Guan-Ying Chen
@@ -73,15 +64,11 @@ Guan-Ying Chen:
      - title: linkedin
        url: #
      - title: facebook
-<<<<<<< HEAD
        url: https://www.facebook.com/profile.php?id=100001967966464
 #    - title: twitter
 #      url: #
 #    - title: google-plus
 #      url: #
-=======
-       url: https://www.facebook.com/naiwun
->>>>>>> 590a5879f6092bde179505c57bd2d08f76142a8f
 
 Chung-Xsing Liu:
   name: Chung-Hsin Liu
@@ -93,7 +80,6 @@ Chung-Xsing Liu:
      - title: linkedin
        url: #
      - title: facebook
-<<<<<<< HEAD
        url: https://www.facebook.com/profile.php?id=100000331235485
 #    - title: twitter
 #      url: #
@@ -104,51 +90,23 @@ Chen-Kai Wang:
   name: Chen-Kai Wang
   position: Associate Researcher of Big Data laboratories of Chunghwa Telecom Laboratories, PhD Student of Department of Computer Science of National Chiao Tung University, Taoyuan, Taiwan, R.O.C.
   email: onkarnims2009@gmail.com
-=======
-       url: https://www.facebook.com/onkar.singh.735
-
-yungchun:
-  name: Yung-Chun Chang
-  email: changyc@iis.sinica.edu.tw
-  position: Assistant Professor of Graduate Institute of Data Science/Bachelor Program in Data Science and Management of Taipei Medical University, Taipei, Taiwan, R.O.C.
->>>>>>> 590a5879f6092bde179505c57bd2d08f76142a8f
   bio: 
   avatar: team/T6.jpg
   social:
      - title: linkedin
        url: https://www.linkedin.com/in/chen-kai-wang-022077132
      - title: facebook
-<<<<<<< HEAD
        url: https://www.facebook.com/dennisckwang
 #    - title: twitter
 #      url: #
 #    - title: google-plus
 #      url: #
-=======
-       url: https://www.facebook.com/yungchun.chang.3
-       
-weisan:
-  name: Wei-San Lin
-  email: josan053@hotmail.com
-  position: Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University, Taipei, Taiwan, R.O.C.
-  bio: 
-  avatar: team/7.jpg
-  twitter: 
-  google:
-    plus: 
-  social:
-     - title: linkedin
-       url: https://www.linkedin.com/in/josan053/
-     - title: facebook
-       url: https://www.facebook.com/josan053
->>>>>>> 590a5879f6092bde179505c57bd2d08f76142a8f
 
 Frank:
   name: Feng-Duo Wang
-  position: Master Student of Department of Computer Science of National Tsing Hua University, Hsinchu, Taiwan, R.O.C.
+  position: Senior Student of Department of Computer Science and Information Engineering of National Taitung University, Taitung, Taiwan, R.O.C.
   email: nn19680901@gmail.com
   bio: 
-<<<<<<< HEAD
   avatar: team/T7.jpg
   social:
      - title: linkedin
@@ -156,37 +114,11 @@ Frank:
      - title: facebook
        url: 
        
-=======
-  avatar: team/8.jpg
-  
-Youqian:
-  name: You-Qian Lee
-  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology, Kaohsiung, Taiwan, R.O.C.
-  email: f109154125@nkust.edu.tw
-  bio:
-  avatar: team/9.jpg
-  
-Bohong:
-  name: Bo-Hong Wang
-  position: Master Student of Department of Electrical Engineering of National Sun Yat-sen University, Kaohsiung, Taiwan, R.O.C.
-  email: s94061910@gmail.com
-  bio:
-  avatar: team/10.jpg
-  
-Youchen:
-  name: You-Chen Zhang
-  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology, Kaohsiung, Taiwan, R.O.C.
-  email: uchenzhang0220@gmail.com
-  bio:
-  avatar: team/11.jpg
-  
->>>>>>> 590a5879f6092bde179505c57bd2d08f76142a8f
 Jason:
   name: Chu-Hsien Su
   position: Research Assistant of National Taiwan University Hospital of Department of Psychiatry, Taipei, Taiwan, R.O.C.
   email: a25716211@gmail.com
   bio:
-<<<<<<< HEAD
   avatar: team/T8.jpg
   social:
      - title: linkedin
@@ -196,6 +128,3 @@ Jason:
   #   - title: stack-overflow
 #     url: #
   
-=======
-  avatar: team/12.jpg
->>>>>>> 590a5879f6092bde179505c57bd2d08f76142a8f
