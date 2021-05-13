@@ -1,0 +1,18 @@
+I"<h2 id="abstract">Abstract</h2>
+
+<p>Background</p>
+
+<p>Many studies have used Taiwan’s National Health Insurance Research database (NHIRD) to conduct psychiatric research. However, the accuracy of the diagnostic codes for psychiatric disorders in NHIRD is not validated, and the symptom profiles are not available either. This study aimed to evaluate the accuracy of diagnostic codes and use text mining to extract symptom profile and functional impairment from electronic health records (EHRs) to overcome the above research limitations.</p>
+
+<p>Methods</p>
+
+<p>A total of 500 discharge notes were randomly selected from a medical center’s database. Three annotators reviewed the notes to establish gold standards. The accuracy of diagnostic codes for major psychiatric illness was evaluated. Text mining approaches were applied to extract depressive symptoms and function profiles and to identify patients with major depressive disorder.</p>
+
+<p>Results</p>
+
+<p>The accuracy of the diagnostic code for major depressive disorder, schizophrenia, and dementia was acceptable but that of bipolar disorder and minor depression was less satisfactory. The performance of text mining approach to recognize depressive symptoms is satisfactory; however, the recall for functional impairment is lower resulting in lower F-scores of 0.774–0.753. Using the text mining approach to identify major depressive disorder, the recall was 0.85 but precision was only 0.69.</p>
+
+<p>Conclusions</p>
+
+<p>The accuracy of the diagnostic code for major depressive disorder in discharge notes was generally acceptable. This finding supports the utilization of psychiatric diagnoses in claims databases. The application of text mining to EHRs might help in overcoming current limitations in research using claims databases.</p>
+:ET

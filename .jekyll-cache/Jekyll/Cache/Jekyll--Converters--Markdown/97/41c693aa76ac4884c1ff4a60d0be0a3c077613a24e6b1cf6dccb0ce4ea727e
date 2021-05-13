@@ -1,0 +1,20 @@
+I"`<h2 id="abstract">Abstract</h2>
+
+<p>Objective</p>
+
+<p>Patient discharge summaries provide detailed medical information about hospitalized patients and are a rich resource of data for clinical record text mining. The textual expressions of this information are highly variable. In order to acquire a precise understanding of the patient, it is important to uncover the relationship between all instances in the text. In natural language processing (NLP), this task falls under the category of coreference resolution.</p>
+
+<p>Design</p>
+
+<p>A key contribution of this paper is the application of contextual-dependent rules that describe relationships between coreference pairs. To resolve phrases that refer to the same entity, the authors use these rules in three representative NLP systems: one rule-based, another based on the maximum entropy model, and the last a system built on the Markov logic network (MLN) model.</p>
+
+<p>Results</p>
+
+<p>The experimental results show that the proposed MLN-based system outperforms the baseline system (exact match) by average F-scores of 4.3% and 5.7% on the Beth and Partners datasets, respectively. Finally, the three systems were integrated into an ensemble system, further improving performance to 87.21%, which is 4.5% more than the official i2b2 Track 1C average (82.7%).</p>
+
+<p>Conclusion</p>
+
+<p>In this paper, the main challenges in the resolution of coreference relations in patient discharge summaries are described. Several rules are proposed to exploit contextual information, and three approaches presented. While single systems provided promising results, an ensemble approach combining the three systems produced a better performance than even the best single system.</p>
+
+<p>Keywords: Coreference resolution, Markov logic network, clinical information extraction, natural language processing, ensemble classifier, text mining</p>
+:ET
