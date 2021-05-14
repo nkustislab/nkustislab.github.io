@@ -1,6 +1,6 @@
-url: https://bigodatamining.github.io
+#url: https://bigodatamining.github.io
 #url: http://127.0.0.1:4000
-#url: https://nkustislab.github.io
+url: https://nkustislab.github.io
 
 # Site wide configuration
 
@@ -44,7 +44,7 @@ owner:
   disqus-shortname: ISLab
   twitter: #username
   facebook: https://www.facebook.com/groups/404559626383286/
-  github: https://github.com/BigODataMining/
+  github: https://github.com/nkustislab/
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
