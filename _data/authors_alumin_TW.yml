@@ -3,7 +3,7 @@
 Bohong:
   name: 王博弘
   position: 國立中山大學電機系碩士
-  web: http://bigodatamining.github.io
+  web: http://nkustislab.github.io
   email: 
   bio: 
   avatar: team/A1.jpg
@@ -17,3 +17,20 @@ Bohong:
     url: https://www.facebook.com/profile.php?id=100000610209271
 #   - title: stack-overflow
 #     url: #
+
+Wei-San Lin:
+  name: Wei-San Lin
+  position: 台北醫學大學醫學資訊研究所研究生
+  web: http://nkustislab.github.io
+  email: 
+  bio: 
+  avatar: team/A2.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/josan053/
+  - title: facebook
+    url: https://www.facebook.com/josan053
+
