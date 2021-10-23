@@ -20,7 +20,7 @@ hjdai:
 
 You-Qian Lee:
   name: 李佑謙
-  position: 國立高雄科技大學碩士                  
+  position: 國立高雄科技大學電機工程系碩士                  
   web: http://bigodatamining.github.io
   email: #
   bio: 
@@ -38,7 +38,7 @@ You-Qian Lee:
 
 You-Chen Zhang:    
   name: 張祐晨
-  position: 國立高雄科技大學碩士
+  position: 國立高雄科技大學電機工程系碩士
   web: http://bigodatamining.github.io
   email: #
   bio: 
@@ -54,7 +54,7 @@ You-Chen Zhang:
 Guan-Ying Chen:
   name: 陳冠穎
   email: 
-  position: 國立高雄科技大學碩士
+  position: 國立高雄科技大學電機工程系碩士
   bio: 
   avatar: team/T4.jpg
   twitter: 
@@ -72,7 +72,7 @@ Guan-Ying Chen:
 
 Chung-Xsing Liu:
   name: 劉崇鑫
-  position: 國立高雄科技大學碩士
+  position: 國立高雄科技大學電機工程系碩士
   email: rogerliu0723@gmail.com
   bio: 
   avatar: team/T5.jpg
@@ -85,6 +85,31 @@ Chung-Xsing Liu:
 #      url: #
 #    - title: google-plus
 #      url: #
+
+Jui-Cheng Wei:
+  name: 魏瑞成
+  position: 國立高雄科技大學電機工程系碩士
+  email: ray93978@gmail.com
+  bio: 
+  avatar: team/T10.jpg
+  social:
+     - title: linkedin
+       url: #
+     - title: facebook
+       url: https://www.facebook.com/saddfgdfhwedg/
+
+
+Chi-Feng Chung:
+  name: 鐘麒豐
+  position: 國立高雄科技大學電機工程系碩士
+  email: henrrycandy94210@gmail.com
+  bio: 
+  avatar: team/T9.jpg
+  social:
+     - title: linkedin
+       url: #
+     - title: facebook
+       url: #
 
 Chen-Kai Wang:
   name: 王振愷

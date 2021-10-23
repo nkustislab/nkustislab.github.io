@@ -73,7 +73,7 @@ Guan-Ying Chen:
 Chung-Xsing Liu:
   name: Chung-Hsin Liu
   position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  email: onkarnims2009@gmail.com
+  email: rogerliu0723@gmail.com
   bio: 
   avatar: team/T5.jpg
   social:
@@ -85,6 +85,30 @@ Chung-Xsing Liu:
 #      url: #
 #    - title: google-plus
 #      url: #
+
+Jui-Cheng:
+  name: Jui-Cheng Wei
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  email: ray93978@gmail.com
+  bio:
+  avatar: team/T10.jpg
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: https://www.facebook.com/saddfgdfhwedg/
+
+Chi-Feng:
+  name: Chi-Feng Chung
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  email: henrrycandy94210@gmail.com
+  bio: 
+  avatar: team/T9.jpg
+  social:
+     - title: linkedin
+       url: #
+     - title: facebook
+       url: #
 
 Chen-Kai Wang:
   name: Chen-Kai Wang
@@ -125,6 +149,7 @@ Jason:
        url: 
      - title: facebook
        url: 
-  #   - title: stack-overflow
-#     url: #
+       
+       
+
   
