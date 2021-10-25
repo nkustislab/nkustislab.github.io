@@ -61,3 +61,7 @@ jfrontiers:
 cmpbu:
   full: "Computer Methods and Programs in Biomedicine Update"
   url: https://www.sciencedirect.com/journal/computer-methods-and-programs-in-biomedicine-update
+  
+IEEE:
+  full: "IEEE Xplore"
+  url: https://ieeexplore.ieee.org/Xplore/home.jsp
