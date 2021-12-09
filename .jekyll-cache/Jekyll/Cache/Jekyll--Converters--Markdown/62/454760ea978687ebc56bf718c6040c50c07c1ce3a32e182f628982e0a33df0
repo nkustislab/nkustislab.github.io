@@ -1,8 +1,0 @@
-I"Y<p>A web-based NCBI-PubMed search application, which can analyze articles for selected biomedical verbs and give users relational information, such as subject, object, location, manner, time, etc. After receiving keyword query input, BWS retrieves matching PubMed abstracts and lists them along with snippets by order of relevancy to protein-protein interaction. Users can then select articles for further analysis, and BWS will find and mark up biomedical relations in the text. The analysis results can be viewed in the abstract text or in table form.</p>
-
-<h2 id="reference">Reference</h2>
-
-<ul>
-  <li>BIOSMILE web search: a web application for annotating biomedical entities and relations, Hong-Jie Dai, Chi-Hsin Huang, Ryan T. K. Lin, Richard Tzong-Han Tsai, and Wen-Lian Hsu, Nucleic Acids Res. 2008 Jul 1; 36(Web Server issue): W390-W398.</li>
-</ul>
-:ET
