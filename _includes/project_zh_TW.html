@@ -10,21 +10,19 @@
     <div class="row">
     	{% assign projects = site.posts | where: 'categories', 'active_project' %}
     	{% for post in projects %}
-    		<div class="col-md-4 col-sm-6 portfolio-item">
-        	<a href="#projectModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-        		<div class="portfolio-hover">
-        			<div class="portfolio-hover-content">
-        				<i class="fa fa-plus fa-3x"></i>
-        			</div>
-        		</div>
-        		<img src="/images/project/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-        	</a>
-        	<div class="portfolio-caption">
-        		<h4>{{ post.title }}</h4>
-        		<p class="text-muted">{{ post.subtitle }}</p>
-        	</div>
-        </div>				
+    		<li>
+  					<article>
+  						<a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
+  							<span class="entry-date">
+  								<time datetime="{{ post.todate | date_to_xmlschema }}">{{ post.todate | date: "%B %d, %Y" }}</time>
+  							</span>  							
+  						</a>
+  					</article>
+  				</li>
 			{% endfor %}
 		</div>
 	</div>
 </section>
+
+
+

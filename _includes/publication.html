@@ -5,12 +5,14 @@
     	<div class="col-lg-12 text-center">
 				<h2 class="section-heading">Publication</h2>
         <h3 class="section-subheading text-muted">Here list our most recent publications. Click <a href="/publication/">here</a> to view the full list of our publications.</h3>
+        <br>
+        <h3 class="section-heading">Journal</h3>
       </div>
     </div>
     <div class="row">
     	<ul class="post-list">
     		{% assign publishedPapers = site.posts | where: 'categories', 'publication' %}
-				{% for post in publishedPapers limit:10 %}
+				{% for post in publishedPapers limit:5 %}
   				<li>
   					<article>
   						<a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
@@ -33,5 +35,31 @@
 				{% endfor %}
 			</ul>
 		</div>
+        
+        <div class="row">
+    	<div class="col-lg-12 text-center">
+                <br>
+				<h3 class="section-heading">Conference</h3>
+      </div>
+    </div>
+    <div class="row">
+    	<ul class="post-list">
+    		{% assign publishedPapers = site.posts | where: 'categories', 'publication-con' %}
+				{% for post in publishedPapers limit:5 %}
+  				<li>
+  					<article>
+  						<a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
+  							<span class="entry-date">
+  								<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+  							</span>  							
+  						</a>
+  						
+          			{% assign author = "Conference" %}						
+  					</article>
+  				</li>
+                {% endfor %}
+			</ul>
+		</div>
+        
 	</div>
 </section>
