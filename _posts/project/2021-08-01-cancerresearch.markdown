@@ -9,7 +9,7 @@ thumbnail: CancerReserch-thumbnail.png
 alt: image-alt
 project-date: August 2021
 client: NHRI
-category: Biomedical Text Mining
+category: Clinical Natural Language Processing
 categories: active_project
 description: <p>為了協助收集與整合臨床資料，將建立一個人工智慧雲端研究平台，並且初步納入中醫大、
  高醫(CMUH and KMUH)大腸癌病患資料，並從兩間醫學中心的電子病歷系統中蒐集各式電

@@ -9,7 +9,7 @@ thumbnail: LungCnacerRegister-thumbnail.png
 alt: A text-mined network visualization and curation system.
 project-date: April 2021
 client: NHRI
-category: Biomedical Text Mining
+category: Clinical Natural Language Processing
 type: project
 categories: active_project
 description: <p>本計畫將執行「110年人工智慧導入肺癌早期偵測與癌症登記之研發
