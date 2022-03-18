@@ -9,7 +9,7 @@ thumbnail: Suicide Prediction-thumbnail.png
 alt: image-alt
 project-date: September 2021
 client: KMUH/CMUH
-category: Biomedical Text Mining
+category: Clinical Natural Language Processing
 categories: active_project
 description: <p>去識別化檢視與分析工具開發，保障患者相關隱私資訊</p>
 ---
