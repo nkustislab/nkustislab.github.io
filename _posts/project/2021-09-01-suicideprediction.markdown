@@ -4,8 +4,8 @@ subtitle: Clinical Natural Language Processing
 layout: post
 modal-id: 1
 date: 2021-09-01
-img: Suicide Prediction.png
-thumbnail: Suicide Prediction-thumbnail.png
+img: de-identificationgui.png
+thumbnail: de-identificationgui-thumbnail.png
 alt: image-alt
 project-date: September 2021
 client: KMUH/CMUH
