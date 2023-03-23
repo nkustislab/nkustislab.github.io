@@ -1,0 +1,16 @@
+current directory: /Volumes/Mac-2/nkustislab.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/tatheerhussain/.rubies/ruby-3.1.3/bin/ruby -I /Users/tatheerhussain/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Volumes/Mac-2/nkustislab.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230322-4705-fzdrnc sitelibdir\=./.gem.20230322-4705-fzdrnc clean
+
+current directory: /Volumes/Mac-2/nkustislab.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230322-4705-fzdrnc sitelibdir\=./.gem.20230322-4705-fzdrnc
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Volumes/Mac-2/nkustislab.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230322-4705-fzdrnc sitelibdir\=./.gem.20230322-4705-fzdrnc install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20230322-4705-fzdrnc
