@@ -1,0 +1,566 @@
+current directory: /Volumes/Mac-2/nkustislab.github.io/vendor/bundle/ruby/3.1.0/gems/google-protobuf-3.22.2/ext/google/protobuf_c
+/Users/tatheerhussain/.rubies/ruby-3.1.3/bin/ruby -I /Users/tatheerhussain/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Volumes/Mac-2/nkustislab.github.io/vendor/bundle/ruby/3.1.0/gems/google-protobuf-3.22.2/ext/google/protobuf_c
+make DESTDIR\= sitearchdir\=./.gem.20230322-4705-nt2dug sitelibdir\=./.gem.20230322-4705-nt2dug clean
+
+current directory: /Volumes/Mac-2/nkustislab.github.io/vendor/bundle/ruby/3.1.0/gems/google-protobuf-3.22.2/ext/google/protobuf_c
+make DESTDIR\= sitearchdir\=./.gem.20230322-4705-nt2dug sitelibdir\=./.gem.20230322-4705-nt2dug
+compiling protobuf.c
+In file included from protobuf.c:31:
+In file included from ./protobuf.h:38:
+In file included from ./defs.h:37:
+./ruby-upb.h:2846:38: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    array = _upb_Array_New(arena, 4, _upb_MiniTable_ElementSizeLg2(field));
+            ~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ruby-upb.h:8076:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  *overrun = ptr - e->end;
+           ~ ~~~~^~~~~~~~
+./ruby-upb.h:8208:64: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return upb_EpsCopyInputStream_CheckDataSizeAvailable(e, ptr, size) &&
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ^~~~
+./ruby-upb.h:8274:65: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    if (!upb_EpsCopyInputStream_CheckDataSizeAvailable(e, *ptr, size)) {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^~~~
+./ruby-upb.h:8280:66: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    const char* ret = upb_EpsCopyInputStream_Copy(e, *ptr, data, size);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~                ^~~~
+./ruby-upb.h:8368:27: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  e->limit = e->limit_ptr - e->end;
+           ~ ~~~~~~~~~~~~~^~~~~~~~
+./ruby-upb.h:9512:10: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  *tag = val;
+       ~ ^~~
+./ruby-upb.h:9552:11: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+  *size = size64;
+        ~ ^~~~~~
+./ruby-upb.h:10565:53: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return utf8_range2((const unsigned char*)ptr, end - ptr) == 0;
+         ~~~~~~~~~~~                            ~~~~^~~~~
+protobuf.c:63:30: warning: redefinition of typedef 'StringBuilder' is a C11 feature [-Wtypedef-redefinition]
+typedef struct StringBuilder StringBuilder;
+                             ^
+./protobuf.h:92:30: note: previous definition is here
+typedef struct StringBuilder StringBuilder;
+                             ^
+10 warnings generated.
+compiling convert.c
+In file included from convert.c:40:
+In file included from ./convert.h:36:
+In file included from ./protobuf.h:38:
+In file included from ./defs.h:37:
+./ruby-upb.h:2846:38: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    array = _upb_Array_New(arena, 4, _upb_MiniTable_ElementSizeLg2(field));
+            ~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ruby-upb.h:8076:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  *overrun = ptr - e->end;
+           ~ ~~~~^~~~~~~~
+./ruby-upb.h:8208:64: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return upb_EpsCopyInputStream_CheckDataSizeAvailable(e, ptr, size) &&
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ^~~~
+./ruby-upb.h:8274:65: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    if (!upb_EpsCopyInputStream_CheckDataSizeAvailable(e, *ptr, size)) {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^~~~
+./ruby-upb.h:8280:66: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    const char* ret = upb_EpsCopyInputStream_Copy(e, *ptr, data, size);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~                ^~~~
+./ruby-upb.h:8368:27: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  e->limit = e->limit_ptr - e->end;
+           ~ ~~~~~~~~~~~~~^~~~~~~~
+./ruby-upb.h:9512:10: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  *tag = val;
+       ~ ^~~
+./ruby-upb.h:9552:11: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+  *size = size64;
+        ~ ^~~~~~
+./ruby-upb.h:10565:53: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return utf8_range2((const unsigned char*)ptr, end - ptr) == 0;
+         ~~~~~~~~~~~                            ~~~~^~~~~
+convert.c:229:9: warning: variable 'ret' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
+        default:
+        ^~~~~~~
+convert.c:237:10: note: uninitialized use occurs here
+  return ret;
+         ^~~
+convert.c:132:3: note: variable 'ret' is declared here
+  upb_MessageValue ret;
+  ^
+10 warnings generated.
+compiling defs.c
+In file included from defs.c:35:
+In file included from ./convert.h:36:
+In file included from ./protobuf.h:38:
+In file included from ./defs.h:37:
+./ruby-upb.h:2846:38: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    array = _upb_Array_New(arena, 4, _upb_MiniTable_ElementSizeLg2(field));
+            ~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ruby-upb.h:8076:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  *overrun = ptr - e->end;
+           ~ ~~~~^~~~~~~~
+./ruby-upb.h:8208:64: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return upb_EpsCopyInputStream_CheckDataSizeAvailable(e, ptr, size) &&
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ^~~~
+./ruby-upb.h:8274:65: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    if (!upb_EpsCopyInputStream_CheckDataSizeAvailable(e, *ptr, size)) {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^~~~
+./ruby-upb.h:8280:66: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    const char* ret = upb_EpsCopyInputStream_Copy(e, *ptr, data, size);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~                ^~~~
+./ruby-upb.h:8368:27: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  e->limit = e->limit_ptr - e->end;
+           ~ ~~~~~~~~~~~~~^~~~~~~~
+./ruby-upb.h:9512:10: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  *tag = val;
+       ~ ^~~
+./ruby-upb.h:9552:11: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+  *size = size64;
+        ~ ^~~~~~
+./ruby-upb.h:10565:53: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return utf8_range2((const unsigned char*)ptr, end - ptr) == 0;
+         ~~~~~~~~~~~                            ~~~~^~~~~
+9 warnings generated.
+compiling message.c
+In file included from message.c:31:
+In file included from ./message.h:36:
+In file included from ./protobuf.h:38:
+In file included from ./defs.h:37:
+./ruby-upb.h:2846:38: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    array = _upb_Array_New(arena, 4, _upb_MiniTable_ElementSizeLg2(field));
+            ~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ruby-upb.h:8076:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  *overrun = ptr - e->end;
+           ~ ~~~~^~~~~~~~
+./ruby-upb.h:8208:64: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return upb_EpsCopyInputStream_CheckDataSizeAvailable(e, ptr, size) &&
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ^~~~
+./ruby-upb.h:8274:65: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    if (!upb_EpsCopyInputStream_CheckDataSizeAvailable(e, *ptr, size)) {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^~~~
+./ruby-upb.h:8280:66: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    const char* ret = upb_EpsCopyInputStream_Copy(e, *ptr, data, size);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~                ^~~~
+./ruby-upb.h:8368:27: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  e->limit = e->limit_ptr - e->end;
+           ~ ~~~~~~~~~~~~~^~~~~~~~
+./ruby-upb.h:9512:10: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  *tag = val;
+       ~ ^~~
+./ruby-upb.h:9552:11: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+  *size = size64;
+        ~ ^~~~~~
+./ruby-upb.h:10565:53: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return utf8_range2((const unsigned char*)ptr, end - ptr) == 0;
+         ~~~~~~~~~~~                            ~~~~^~~~~
+message.c:509:20: warning: initializing 'upb_MiniTable *' (aka 'struct upb_MiniTable *') with an expression of type 'const upb_MiniTable *' (aka 'const struct upb_MiniTable *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    upb_MiniTable* t = upb_MessageDef_MiniTable(map_init->val_type.def.msgdef);
+                   ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+message.c:540:20: warning: initializing 'upb_MiniTable *' (aka 'struct upb_MiniTable *') with an expression of type 'const upb_MiniTable *' (aka 'const struct upb_MiniTable *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    upb_MiniTable* t = upb_MessageDef_MiniTable(info.def.msgdef);
+                   ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+message.c:656:18: warning: initializing 'upb_MiniTable *' (aka 'struct upb_MiniTable *') with an expression of type 'const upb_MiniTable *' (aka 'const struct upb_MiniTable *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  upb_MiniTable* t = upb_MessageDef_MiniTable(self->msgdef);
+                 ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+message.c:796:20: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int size = arr ? upb_Array_Size(arr) : 0;
+      ~~~~         ^~~~~~~~~~~~~~~~~~~
+message.c:1353:31: warning: implicit conversion loses integer precision: 'long' to 'int32_t' (aka 'int') [-Wshorten-64-to-32]
+        nsec.int32_val = time.tv_nsec;
+                       ~ ~~~~~^~~~~~~
+14 warnings generated.
+compiling repeated_field.c
+In file included from repeated_field.c:31:
+In file included from ./repeated_field.h:36:
+In file included from ./protobuf.h:38:
+In file included from ./defs.h:37:
+./ruby-upb.h:2846:38: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    array = _upb_Array_New(arena, 4, _upb_MiniTable_ElementSizeLg2(field));
+            ~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ruby-upb.h:8076:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  *overrun = ptr - e->end;
+           ~ ~~~~^~~~~~~~
+./ruby-upb.h:8208:64: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return upb_EpsCopyInputStream_CheckDataSizeAvailable(e, ptr, size) &&
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ^~~~
+./ruby-upb.h:8274:65: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    if (!upb_EpsCopyInputStream_CheckDataSizeAvailable(e, *ptr, size)) {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^~~~
+./ruby-upb.h:8280:66: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    const char* ret = upb_EpsCopyInputStream_Copy(e, *ptr, data, size);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~                ^~~~
+./ruby-upb.h:8368:27: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  e->limit = e->limit_ptr - e->end;
+           ~ ~~~~~~~~~~~~~^~~~~~~~
+./ruby-upb.h:9512:10: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  *tag = val;
+       ~ ^~~
+./ruby-upb.h:9552:11: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+  *size = size64;
+        ~ ^~~~~~
+./ruby-upb.h:10565:53: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return utf8_range2((const unsigned char*)ptr, end - ptr) == 0;
+         ~~~~~~~~~~~                            ~~~~^~~~~
+repeated_field.c:203:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int size = upb_Array_Size(self->array);
+      ~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+repeated_field.c:271:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int size = upb_Array_Size(self->array);
+      ~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+repeated_field.c:397:18: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return INT2NUM(upb_Array_Size(self->array));
+         ~~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+repeated_field.c:413:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int size = upb_Array_Size(self->array);
+      ~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+repeated_field.c:435:14: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int size = upb_Array_Size(self->array);
+      ~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+repeated_field.c:555:16: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    int size = upb_Array_Size(list_rptfield->array);
+        ~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+15 warnings generated.
+compiling map.c
+In file included from map.c:31:
+In file included from ./convert.h:36:
+In file included from ./protobuf.h:38:
+In file included from ./defs.h:37:
+./ruby-upb.h:2846:38: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    array = _upb_Array_New(arena, 4, _upb_MiniTable_ElementSizeLg2(field));
+            ~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ruby-upb.h:8076:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  *overrun = ptr - e->end;
+           ~ ~~~~^~~~~~~~
+./ruby-upb.h:8208:64: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return upb_EpsCopyInputStream_CheckDataSizeAvailable(e, ptr, size) &&
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ^~~~
+./ruby-upb.h:8274:65: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    if (!upb_EpsCopyInputStream_CheckDataSizeAvailable(e, *ptr, size)) {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^~~~
+./ruby-upb.h:8280:66: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    const char* ret = upb_EpsCopyInputStream_Copy(e, *ptr, data, size);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~                ^~~~
+./ruby-upb.h:8368:27: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  e->limit = e->limit_ptr - e->end;
+           ~ ~~~~~~~~~~~~~^~~~~~~~
+./ruby-upb.h:9512:10: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  *tag = val;
+       ~ ^~~
+./ruby-upb.h:9552:11: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+  *size = size64;
+        ~ ^~~~~~
+./ruby-upb.h:10565:53: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return utf8_range2((const unsigned char*)ptr, end - ptr) == 0;
+         ~~~~~~~~~~~                            ~~~~^~~~~
+map.c:468:22: warning: passing 'const upb_Map *' (aka 'const struct upb_Map *') to parameter of type 'upb_Map *' (aka 'struct upb_Map *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  if (upb_Map_Delete(self->map, key_upb, &val_upb)) {
+                     ^~~~~~~~~
+./ruby-upb.h:897:38: note: passing argument to parameter 'map' here
+UPB_API bool upb_Map_Delete(upb_Map* map, upb_MessageValue key,
+                                     ^
+10 warnings generated.
+compiling ruby-upb.c
+In file included from ruby-upb.c:2:
+./ruby-upb.h:2846:38: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    array = _upb_Array_New(arena, 4, _upb_MiniTable_ElementSizeLg2(field));
+            ~~~~~~~~~~~~~~           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ruby-upb.h:8076:18: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  *overrun = ptr - e->end;
+           ~ ~~~~^~~~~~~~
+./ruby-upb.h:8208:64: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return upb_EpsCopyInputStream_CheckDataSizeAvailable(e, ptr, size) &&
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ^~~~
+./ruby-upb.h:8274:65: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    if (!upb_EpsCopyInputStream_CheckDataSizeAvailable(e, *ptr, size)) {
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          ^~~~
+./ruby-upb.h:8280:66: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    const char* ret = upb_EpsCopyInputStream_Copy(e, *ptr, data, size);
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~                ^~~~
+./ruby-upb.h:8368:27: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  e->limit = e->limit_ptr - e->end;
+           ~ ~~~~~~~~~~~~~^~~~~~~~
+./ruby-upb.h:9512:10: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  *tag = val;
+       ~ ^~~
+./ruby-upb.h:9552:11: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+  *size = size64;
+        ~ ^~~~~~
+./ruby-upb.h:10565:53: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  return utf8_range2((const unsigned char*)ptr, end - ptr) == 0;
+         ~~~~~~~~~~~                            ~~~~^~~~~
+ruby-upb.c:371:31: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  return _upb_Array_New(a, 4, _upb_Array_CTypeSizeLg2(type));
+         ~~~~~~~~~~~~~~       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ruby-upb.c:662:18: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int map_size = _upb_Map_Size(map);
+      ~~~~~~~~   ^~~~~~~~~~~~~~~~~~
+ruby-upb.c:696:41: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  if (!_upb_mapsorter_resize(s, sorted, count)) return false;
+       ~~~~~~~~~~~~~~~~~~~~~            ^~~~~
+ruby-upb.c:1942:51: warning: implicit conversion loses integer precision: 'unsigned long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  t->mask = upb_table_size(t) ? upb_table_size(t) - 1 : 0;
+          ~                     ~~~~~~~~~~~~~~~~~~^~~
+ruby-upb.c:2250:10: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  return Wyhash(p, n, seed, kWyhashSalt);
+  ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ruby-upb.c:2274:34: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int size_lg2 = upb_Log2Ceiling(need_entries);
+                 ~~~~~~~~~~~~~~~ ^~~~~~~~~~~~
+ruby-upb.c:2590:16: warning: comparison of integers of different signs: 'intptr_t' (aka 'long') and 'const size_t' (aka 'const unsigned long') [-Wsign-compare]
+    while (++i < t->array_size) {
+           ~~~ ^ ~~~~~~~~~~~~~
+ruby-upb.c:2616:9: warning: comparison of integers of different signs: 'intptr_t' (aka 'long') and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  if (i < t->array_size) {
+      ~ ^ ~~~~~~~~~~~~~
+ruby-upb.c:5001:24: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  const int len1 = pos - input;
+            ~~~~   ~~~~^~~~~~~
+ruby-upb.c:5036:41: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+      int size_diff = strlen(localized) - strlen(str);
+          ~~~~~~~~~   ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+ruby-upb.c:5239:31: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  a->last_size = UPB_MAX(128, n);
+               ~              ^
+ruby-upb.c:122:43: note: expanded from macro 'UPB_MAX'
+#define UPB_MAX(x, y) ((x) > (y) ? (x) : (y))
+                                          ^
+ruby-upb.c:5657:57: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+    size_t size = UPB_MAX(128, upb_Log2CeilingSize(need + overhead));
+                               ~~~~~~~~~~~~~~~~~~~ ~~~~~^~~~~~~~~~
+ruby-upb.c:122:31: note: expanded from macro 'UPB_MAX'
+#define UPB_MAX(x, y) ((x) > (y) ? (x) : (y))
+                              ^
+ruby-upb.c:5657:57: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+    size_t size = UPB_MAX(128, upb_Log2CeilingSize(need + overhead));
+                               ~~~~~~~~~~~~~~~~~~~ ~~~~~^~~~~~~~~~
+ruby-upb.c:122:43: note: expanded from macro 'UPB_MAX'
+#define UPB_MAX(x, y) ((x) > (y) ? (x) : (y))
+                                          ^
+ruby-upb.c:5660:22: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    internal->size = size;
+                   ~ ^~~~
+ruby-upb.c:5662:27: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    internal->ext_begin = size;
+                        ~ ^~~~
+ruby-upb.c:5666:62: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+    size_t new_size = upb_Log2CeilingSize(in->internal->size + need);
+                      ~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~~~^~~~~~
+ruby-upb.c:5677:27: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    internal->ext_begin = new_ext_begin;
+                        ~ ^~~~~~~~~~~~~
+ruby-upb.c:5678:22: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    internal->size = new_size;
+                   ~ ^~~~~~~~
+ruby-upb.c:5820:13: warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+    if (num < number) {
+        ~~~ ^ ~~~~~~
+ruby-upb.c:5824:13: warning: comparison of integers of different signs: 'int' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+    if (num > number) {
+        ~~~ ^ ~~~~~~
+ruby-upb.c:6088:21: warning: comparison of integers of different signs: 'int8_t' (aka 'signed char') and 'unsigned long' [-Wsign-compare]
+    } else if (type >= sizeof(kUpb_EncodedToFieldRep)) {
+               ~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ruby-upb.c:6095:12: warning: comparison of integers of different signs: 'int8_t' (aka 'signed char') and 'unsigned long' [-Wsign-compare]
+  if (type >= sizeof(kUpb_EncodedToType)) {
+      ~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+ruby-upb.c:6275:34: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    upb_MtDecoder_ModifyField(d, *msg_modifiers, mod, last_field);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~    ^~~~~~~~~~~~~~
+ruby-upb.c:6513:17: warning: comparison of integers of different signs: 'const uint32_t' (aka 'const unsigned int') and 'int' [-Wsign-compare]
+  if (f->number != expected_num) {
+      ~~~~~~~~~ ^  ~~~~~~~~~~~~
+ruby-upb.c:6919:53: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    ptr = upb_MtDataEncoder_PutBase92Varint(e, ptr, mod,
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         ^~~
+ruby-upb.c:7964:27: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  const int used = d->ptr - d->buf;
+            ~~~~   ~~~~~~~^~~~~~~~
+ruby-upb.c:8124:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+  for (size_t i = 0; i < e->value_count; i++) {
+                     ~ ^ ~~~~~~~~~~~~~~
+ruby-upb.c:8126:75: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+        upb_EnumValueDef_Number(sorted ? sorted[i] : upb_EnumDef_Value(e, i));
+                                                     ~~~~~~~~~~~~~~~~~    ^
+ruby-upb.c:8164:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+  for (size_t i = 0; i < n; i++) {
+                     ~ ^ ~
+ruby-upb.c:8202:20: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  e->value_count = n_value;
+                 ~ ^~~~~~~
+ruby-upb.c:8204:43: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+      _upb_EnumValueDefs_New(ctx, prefix, n_value, values, e, &e->is_sorted);
+      ~~~~~~~~~~~~~~~~~~~~~~              ^~~~~~~
+ruby-upb.c:8213:24: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  e->res_range_count = n_res_range;
+                     ~ ^~~~~~~~~~~
+ruby-upb.c:8214:52: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  e->res_ranges = _upb_EnumReservedRanges_New(ctx, n_res_range, res_ranges, e);
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~      ^~~~~~~~~~~
+ruby-upb.c:8218:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  e->res_name_count = n_res_name;
+                    ~ ^~~~~~~~~~
+ruby-upb.c:8219:50: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  e->res_names = _upb_EnumReservedNames_New(ctx, n_res_name, res_names);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~      ^~~~~~~~~~
+ruby-upb.c:8249:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+  for (size_t i = 0; i < n; i++) {
+                     ~ ^ ~
+ruby-upb.c:8369:12: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  return v - upb_EnumDef_Value(v->parent, 0);
+  ~~~~~~ ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ruby-upb.c:8403:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+  for (size_t i = 0; i < n; i++) {
+                     ~ ^ ~
+ruby-upb.c:9076:21: warning: comparison of integers of different signs: 'uint32_t' (aka 'unsigned int') and 'int' [-Wsign-compare]
+    if (oneof_index >= upb_MessageDef_OneofCount(m)) {
+        ~~~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ruby-upb.c:9514:19: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int ext_count = n;
+      ~~~~~~~~~   ^
+ruby-upb.c:9544:19: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  int ext_count = n;
+      ~~~~~~~~~   ^
+ruby-upb.c:9546:21: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  for (int i = 0; i < n; i++) {
+                  ~ ^ ~
+ruby-upb.c:9617:21: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->dep_count = n;
+                  ~ ^
+ruby-upb.c:9633:28: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->public_dep_count = n;
+                         ~ ^
+ruby-upb.c:9646:26: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->weak_dep_count = n;
+                       ~ ^
+ruby-upb.c:9659:30: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->top_lvl_enum_count = n;
+                           ~ ^
+ruby-upb.c:9660:48: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->top_lvl_enums = _upb_EnumDefs_New(ctx, n, enums, NULL);
+                        ~~~~~~~~~~~~~~~~~      ^
+ruby-upb.c:9664:29: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->top_lvl_ext_count = n;
+                          ~ ^
+ruby-upb.c:9665:49: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->top_lvl_exts = _upb_Extensions_New(ctx, n, exts, file->package, NULL);
+                       ~~~~~~~~~~~~~~~~~~~      ^
+ruby-upb.c:9669:29: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->top_lvl_msg_count = n;
+                          ~ ^
+ruby-upb.c:9670:50: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->top_lvl_msgs = _upb_MessageDefs_New(ctx, n, msgs, NULL);
+                       ~~~~~~~~~~~~~~~~~~~~      ^
+ruby-upb.c:9674:25: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->service_count = n;
+                      ~ ^
+ruby-upb.c:9675:46: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  file->services = _upb_ServiceDefs_New(ctx, n, services);
+                   ~~~~~~~~~~~~~~~~~~~~      ^
+ruby-upb.c:9806:53: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+    const upb_FieldDef* f = upb_MessageDef_Field(m, i);
+                            ~~~~~~~~~~~~~~~~~~~~    ^
+ruby-upb.c:10472:24: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+  for (size_t i = 0; i < n; i++) {
+                     ~ ^ ~
+ruby-upb.c:10520:20: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->oneof_count = n_oneof;
+                 ~ ^~~~~~~
+ruby-upb.c:10521:39: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->oneofs = _upb_OneofDefs_New(ctx, n_oneof, oneofs, m);
+              ~~~~~~~~~~~~~~~~~~      ^~~~~~~
+ruby-upb.c:10523:20: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->field_count = n_field;
+                 ~ ^~~~~~~
+ruby-upb.c:10525:31: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+      _upb_FieldDefs_New(ctx, n_field, fields, m->full_name, m, &m->is_sorted);
+      ~~~~~~~~~~~~~~~~~~      ^~~~~~~
+ruby-upb.c:10534:24: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->ext_range_count = n_ext_range;
+                     ~ ^~~~~~~~~~~
+ruby-upb.c:10535:49: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->ext_ranges = _upb_ExtensionRanges_New(ctx, n_ext_range, ext_ranges, m);
+                  ~~~~~~~~~~~~~~~~~~~~~~~~      ^~~~~~~~~~~
+ruby-upb.c:10537:24: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->res_range_count = n_res_range;
+                     ~ ^~~~~~~~~~~
+ruby-upb.c:10539:43: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+      _upb_MessageReservedRanges_New(ctx, n_res_range, res_ranges, m);
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~      ^~~~~~~~~~~
+ruby-upb.c:10541:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->res_name_count = n_res_name;
+                    ~ ^~~~~~~~~~
+ruby-upb.c:10542:46: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->res_names = _upb_ReservedNames_New(ctx, n_res_name, res_names);
+                 ~~~~~~~~~~~~~~~~~~~~~~      ^~~~~~~~~~
+ruby-upb.c:10545:40: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  m->real_oneof_count = m->oneof_count - synthetic_count;
+                      ~ ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ruby-upb.c:10552:26: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->nested_enum_count = n_enum;
+                       ~ ^~~~~~
+ruby-upb.c:10553:44: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->nested_enums = _upb_EnumDefs_New(ctx, n_enum, enums, m);
+                    ~~~~~~~~~~~~~~~~~      ^~~~~~
+ruby-upb.c:10557:25: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->nested_ext_count = n_ext;
+                      ~ ^~~~~
+ruby-upb.c:10558:45: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->nested_exts = _upb_Extensions_New(ctx, n_ext, exts, m->full_name, m);
+                   ~~~~~~~~~~~~~~~~~~~      ^~~~~
+ruby-upb.c:10562:25: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->nested_msg_count = n_msg;
+                      ~ ^~~~~
+ruby-upb.c:10563:46: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  m->nested_msgs = _upb_MessageDefs_New(ctx, n_msg, msgs, m);
+                   ~~~~~~~~~~~~~~~~~~~~      ^~~~~
+ruby-upb.c:10780:12: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  return o - upb_MessageDef_Oneof(o->parent, 0);
+  ~~~~~~ ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ruby-upb.c:10972:21: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  s->method_count = n;
+                  ~ ^
+ruby-upb.c:10973:41: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  s->methods = _upb_MethodDefs_New(ctx, n, methods, s);
+               ~~~~~~~~~~~~~~~~~~~      ^
+ruby-upb.c:11112:12: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    *val = byte;
+         ~ ^~~~
+ruby-upb.c:11120:16: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    *val = res.val;
+         ~ ~~~~^~~
+ruby-upb.c:11134:11: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  *size = size64;
+        ~ ^~~~~~
+ruby-upb.c:11141:28: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    val->uint32_val = val->uint64_val;
+                    ~ ~~~~~^~~~~~~~~~
+ruby-upb.c:11151:25: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+      uint32_t n = val->uint64_val;
+               ~   ~~~~~^~~~~~~~~~
+ruby-upb.c:11423:49: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  upb_Array* ret = _upb_Array_New(&d->arena, 4, lg2);
+                   ~~~~~~~~~~~~~~               ^~~
+ruby-upb.c:11576:49: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+    _upb_Decoder_AddUnknownVarints(d, msg, tag, size);
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ^~~~
+ruby-upb.c:11792:19: warning: implicit conversion loses integer precision: 'uint64_t' (aka 'unsigned long long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+        type_id = tmp;
+                ~ ^~~
+ruby-upb.c:11795:51: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+                                        preserved.size);
+                                        ~~~~~~~~~~^~~~
+ruby-upb.c:11848:36: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+    for (idx = t->dense_below; idx < last; idx++) {
+                               ~~~ ^ ~~~~
+ruby-upb.c:11877:23: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'int' [-Wshorten-64-to-32]
+  *last_field_index = idx;
+                    ~ ^~~
+95 warnings generated.
+compiling wrap_memcpy.c
+compiling ./third_party/utf8_range/naive.c
+compiling ./third_party/utf8_range/range2-neon.c
+compiling ./third_party/utf8_range/range2-sse.c
+linking shared-object google/protobuf_c.bundle
+
+current directory: /Volumes/Mac-2/nkustislab.github.io/vendor/bundle/ruby/3.1.0/gems/google-protobuf-3.22.2/ext/google/protobuf_c
+make DESTDIR\= sitearchdir\=./.gem.20230322-4705-nt2dug sitelibdir\=./.gem.20230322-4705-nt2dug install
+/usr/bin/install -c -m 0755 protobuf_c.bundle ./.gem.20230322-4705-nt2dug/google
