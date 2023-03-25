@@ -1,6 +1,6 @@
 <!-- Project Grid Section -->
 <section id="publication" class="bg-light-gray">
-	<div class="container">
+ <div class="container">
   	<div class="row">
     	<div class="col-lg-12 text-center">
 				<h2 class="section-heading">Publication</h2>
@@ -12,7 +12,7 @@
     <div class="row">
     	<ul class="post-list">
     		{% assign publishedPapers = site.posts | where: 'categories', 'publication' %}
-				{% for post in publishedPapers limit:5 %}
+				{% for post in publishedPapers limit:10 %}
   				<li>
   					<article>
   						<a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
@@ -35,31 +35,62 @@
 				{% endfor %}
 			</ul>
 		</div>
+		</div>
         
         <div class="row">
     	<div class="col-lg-12 text-center">
-                <br>
-				<h3 class="section-heading">Conference</h3>
+					<br>
+				<h3 class="section-heading">Conference/Seminars</h3>
       </div>
+
     </div>
     <div class="row">
-    	<ul class="post-list">
-    		{% assign publishedPapers = site.posts | where: 'categories', 'publication-con' %}
-				{% for post in publishedPapers limit:5 %}
-  				<li>
-  					<article>
-  						<a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
-  							<span class="entry-date">
-  								<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-  							</span>  							
-  						</a>
+		<!-- <div class="col-lg-12 text-center">
+    		<ul class="post-list">
+    			{% assign publishedPapers = site.posts | where: 'categories', 'publication-con' %}
+					{% for post in publishedPapers limit:10 %}
+  					<li>
+  						<article>
+  							<a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
+  								<span class="entry-date">
+  									<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+  								</span>  							
+  							</a>
   						
-          			{% assign author = "Conference" %}						
-  					</article>
-  				</li>
-                {% endfor %}
-			</ul>
+          				{% assign author = "Conference" %}						
+  						</article>
+  					</li>
+               	 {% endfor %}
+				</ul>
+			</div>
+		</div> -->
+
+<!-- updated -->
+<div class="col-lg-12 text-left">
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-10">
+      <ul class="post-list">
+        {% assign publishedPapers = site.posts | where: 'categories', 'publication-con' %}
+        {% for post in publishedPapers limit:10 %}
+          <li>
+            <article>
+              <a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
+                <span class="entry-date">
+                  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                </span>                          
+              </a>
+              {% assign author = "Conference" %}            
+            </article>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-lg-1"></div>
+  </div>
+</div>
+
+
+
 		</div>
-        
-	</div>
 </section>
