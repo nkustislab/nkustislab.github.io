@@ -9,6 +9,7 @@ image:
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
+<!-- home page sections  -->
 {% include research_zh_TW.html %}
 {% include software_zh_TW.html %}
 {% include project_zh_TW.html %}
