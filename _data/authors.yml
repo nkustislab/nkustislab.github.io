@@ -2,7 +2,8 @@
 
 hjdai:
   name: Hong-Jie Dai
-  position: Lab Director, Associate Professor of Department of Electrical Engineering of National Kaohsiung University of Science and Technology, Kaohsiung, Taiwan, R.O.C.
+  position: Lab Director, 
+            Professor and Chair at National Kaohsiung University of Science and Technology
   web: http://bigodatamining.github.io
   email: hjdai@nkust.edu.tw
   bio: 
@@ -15,8 +16,8 @@ hjdai:
       url: https://www.linkedin.com/in/hong-jie-dai-990a9625
     - title: facebook
       url: https://www.facebook.com/hongjie.dai
-#   - title: stack-overflow
-#     url: #
+
+
 
 You-Qian Lee:
   name: You-Qian Lee
@@ -33,23 +34,19 @@ You-Qian Lee:
     url: #
   - title: facebook
     url: https://www.facebook.com/profile.php?id=100003333577045
-#   - title: stack-overflow
-#     url: #
 
 You-Chen Zhang:    
   name: You-Chen Zhang
   position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
   web: http://bigodatamining.github.io
-  email: #
+  email: 
   bio: 
   avatar: team/T3.jpg
   social:
     - title: linkedin
-      url: #
+      url: 
     - title: facebook
-      url: #
-#   - title: twitter
-#     url: #
+      url: 
 
 Guan-Ying Chen:
   name: Guan-Ying Chen
@@ -65,10 +62,6 @@ Guan-Ying Chen:
        url: #
      - title: facebook
        url: https://www.facebook.com/profile.php?id=100001967966464
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
 
 Chung-Xsing Liu:
   name: Chung-Hsin Liu
@@ -81,10 +74,6 @@ Chung-Xsing Liu:
        url: #
      - title: facebook
        url: https://www.facebook.com/profile.php?id=100000331235485
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
 
 Jui-Cheng:
   name: Jui-Cheng Wei
@@ -98,18 +87,6 @@ Jui-Cheng:
      - title: facebook
        url: https://www.facebook.com/saddfgdfhwedg/
 
-Chi-Feng:
-  name: Chi-Feng Chung
-  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  email: henrrycandy94210@gmail.com
-  bio: 
-  avatar: team/T9.jpg
-  social:
-     - title: linkedin
-       url: #
-     - title: facebook
-       url: #
-
 Chen-Kai Wang:
   name: Chen-Kai Wang
   position: Associate Researcher of Big Data laboratories of Chunghwa Telecom Laboratories, PhD Student of Department of Computer Science of National Chiao Tung University, Taoyuan, Taiwan, R.O.C.
@@ -121,10 +98,29 @@ Chen-Kai Wang:
        url: https://www.linkedin.com/in/chen-kai-wang-022077132
      - title: facebook
        url: https://www.facebook.com/dennisckwang
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
+
+Tatheer Hussain:
+  name: Tatheer Hussain
+  position: Ph.D. student in the Department of Electrical Engineering at NKUST, located in Koahsiung Taiwan. He also work as a research assistant at the National Institue of Cancer Research. Prior to this, he studied MSc at National Central University in Taiwan.
+  email: 
+  bio: 
+  avatar: team/TUNK1.png
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: 
+Chi-Feng:
+  name: Chi-Feng Chung
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  email: henrrycandy94210@gmail.com
+  bio: 
+  avatar: team/T9.jpg
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: 
 
 Frank:
   name: Feng-Duo Wang
@@ -163,16 +159,6 @@ Amber:
      - title: facebook
        url:   
 
-# Tatheer Hussain:
-#   name: Tatheer Hussain
-#   position: 
-#   email: 
-#   bio: 
-#   avatar: team/TUNK1.png
-#   social:
-#      - title: linkedin
-#        url: 
-#      - title: facebook
-#        url: 
+
 
 
