@@ -34,4 +34,41 @@
 			</ul>
 		</div>
 	</div>
+	
+	<div class="row">
+	<div class="col-lg-12 text-center">
+				<br>
+			<h3 class="section-heading">會議/研討會</h3>
+    </div>
+
+
+
+<!-- updated -->
+<div class="col-lg-12 text-left">
+<div class="row">
+<div class="col-lg-1"></div>
+<div class="col-lg-10">
+  <ul class="post-list">
+	{% assign publishedPapers = site.posts | where: 'categories', 'publication-con' %}
+	{% for post in publishedPapers limit:10 %}
+	  <li>
+		<article>
+		  <a href="{{ site.url }}{{ post.url }}">{{ post.title }} 
+			<span class="entry-date">
+			  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+			</span>                          
+		  </a>
+		  {% assign author = "Conference" %}            
+		</article>
+	  </li>
+	{% endfor %}
+  </ul>
+</div>
+<div class="col-lg-1"></div>
+</div>
+</div>
+
+
+
+</div>
 </section>

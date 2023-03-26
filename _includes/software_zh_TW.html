@@ -1,5 +1,5 @@
 <!-- Software Section -->
-<section id="software">
+<!-- <section id="software">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -18,35 +18,34 @@
 		                 <p class="text-muted">{{ post.subtitle }}</p>
 						   </div>							    
 						 </div>
-						  <!--div id="softwareCollapse{{ post.modal-id }}" aria-hidden="true">
-					    	<div class="container">
-					    		<div class="row">
-					    			<div class="col-lg-8 col-lg-offset-2">
-					    				<div class="modal-body">
-					    					<h2>{{ post.title }}</h2>
-					    					<hr class="star-primary">
-					    					<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-					    					<p>{{ post.description }}</p>    								
-					            </div>
-					          </div>  
-					        </div>
-								</div>
-					    </div-->
-		          <!--div class="col-md-4 col-sm-6 portfolio-item">
-		              <a href="#softwareCollapse{{ post.modal-id }}" class="portfolio-link" data-toggle="collapse">
-		                  <div class="portfolio-hover">
-		                      <div class="portfolio-hover-content">
-		                          <i class="fa fa-plus fa-3x"></i>
-		                      </div>
-		                  </div>
-		                  <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-		              </a>
-		              <div class="portfolio-caption">
-		                  <h4>{{ post.title }}</h4>
-		                  <p class="text-muted">{{ post.subtitle }}</p>
-		              </div>
-		        </div-->                
+			           
 		      	{% endfor %}
         </div>
     </div>
-</section>
+</section> -->
+
+<section id="software">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">軟體元件、語料</h2>
+          <h3 class="section-subheading text-muted">這邊列出本實驗室研發的軟體及網路服務
+            點選<a href="/software/"><strong>這裡</strong></a> 檢視所有本實驗室研發成果</h3>
+        </div>
+      </div>
+      <div class="row justify-content-center" id="softwareContainer">
+        {% assign softwares = site.posts | where: 'categories', 'software' %}
+        {% for post in softwares %}
+        <div class="col-md-4 mb-4">
+          <div class="card h-400">
+            <div class="card-body">
+              <h4 class="card-title"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h4>
+              <p class="card-text text-muted">{{ post.subtitle }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  
