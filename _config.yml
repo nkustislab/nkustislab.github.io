@@ -41,7 +41,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: ISLab
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: you@example.com
   disqus-shortname: ISLab
   twitter: #username
   facebook: https://www.facebook.com/groups/404559626383286/
