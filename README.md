@@ -45,4 +45,3 @@ We have developed several software tools, such as:
 * Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
  [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/)
 
-* [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
