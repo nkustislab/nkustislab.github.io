@@ -8,6 +8,7 @@ title: ISLab
 locale: en_US
 description: Intelligent System Lab
 logo: images/icon-512.png
+logo: icon-512.png
 search: true
 
 # Jekyll configuration
