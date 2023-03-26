@@ -727,8 +727,11 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 35px 0;
     text-align: center;
+    font-size: 25px;
+    background-color:rgb(255, 255, 255);
+    
 }
 
 footer span.copyright {
