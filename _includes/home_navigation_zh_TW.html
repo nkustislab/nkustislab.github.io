@@ -1,16 +1,21 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-			</button>
-    	<a class="navbar-brand page-scroll" href="#home">{{site.title}}</a>
-  	</div>
+			<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand page-scroll" href="#home">
+					{% if site.logo %}
+					<img src="/images/is-logo.png" alt="{{ site.title }}" width="100" height="100" />
+						{% else %}
+							{{ site.title }}
+						{% endif %}
+					</a>
+			</div>
   	<!-- Collect the nav links, forms, and other content for toggling -->
   	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	  	<ul class="nav navbar-nav navbar-right">
@@ -49,8 +54,10 @@
 <header>
 	<div class="container">
 		<div class="intro-text">
-			<div class="intro-lead-in">{{page.excerpt}}</div>
-			<div class="intro-heading">{{page.title}}</div>
+			<!-- <div class="intro-lead-in">{{page.excerpt}}</div>
+			<div class="intro-heading">{{page.title}}</div> -->
+			<div class="intro-lead-in">Welcome To Intelligent Systems Lab!</div>
+			<div class="intro-heading">Data-Intelligence-Impact</div>
 			<a href="#research" class="page-scroll btn btn-xl">關於我們</a>
 		</div>
 	</div>
