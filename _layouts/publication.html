@@ -81,7 +81,38 @@
         	{% endif %}
       		{% if page.author_list %}
       			<h5>{{page.author_list}}</h5>
-      		{% endif %}      		
+      		{% endif %}      	
+				
+			  <!-- {% if page.journal %}
+			  {% assign journal = site.data.journal[page.journal] %}
+				<h4><a href="{{journal.url}}" target="_blank">{{journal.full}}</a>
+				  {% if page.type %}
+					({{page.type}})
+				  {% endif %}
+				</h4>
+			  {% elsif page.book %}
+			  {% assign book = site.data.book[page.book] %}
+				<h4><a href="{{book.url}}" target="_blank">{{book.title}}</a>
+				  {% if page.type %}
+					({{page.type}})
+				  {% endif %}
+				</h4>
+			  {% else %}
+				{% assign author = "Conference" %}
+			  {% endif %}
+			  {% if page.author_list %}
+				<h5>{{page.author_list}}</h5>
+			  {% endif %}
+			  {% if page.book_chapter %}
+			  {% assign book_chapter = site.data.book_chapter[page.book_chapter] %}
+				<h6><a href="{{book_chapter.url}}" target="_blank">{{book_chapter.title}}</a></h6>
+			  {% endif %}
+			   -->
+
+
+
+
+
         	{{ content }}
         	{% if site.owner.disqus-shortname and page.comments or site.comments %}
 	          <div id="disqus_thread"></div><!-- /#disqus_thread -->
