@@ -19,6 +19,6 @@
  # url: /theme-setup/
 
 #- title: Search
- # url: /search/
+ # url: /_layouts/search.html
 - title: 中文
   url: /index_zh.html/

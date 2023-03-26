@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Softwares
+title: SOFTWARES
 excerpt: "The softwares developed by our lab."
 search_omit: true
 ---
