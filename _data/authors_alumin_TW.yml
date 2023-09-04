@@ -1,5 +1,110 @@
 # Authors_alumin
 
+You-Chen Zhang:    
+  name: 張祐晨
+  position: 國立高雄科技大學電機工程系碩士
+  web: http://bigodatamining.github.io
+  email: #
+  bio: 
+  avatar: team/T3.jpg
+  social:
+    - title: linkedin
+      url: #
+    - title: facebook
+      url: #
+#   - title: twitter
+#     url: #
+
+Chung-Xsing Liu:
+  name: 劉崇鑫
+  position: 國立高雄科技大學電機工程系碩士
+  email: rogerliu0723@gmail.com
+  bio: 
+  avatar: team/T5.jpg
+  social:
+     - title: linkedin
+       url: #
+     - title: facebook
+       url: https://www.facebook.com/profile.php?id=100000331235485
+#    - title: twitter
+#      url: #
+#    - title: google-plus
+#      url: #
+
+Jui-Cheng Wei:
+  name: 魏瑞成
+  position: 國立高雄科技大學電機工程系碩士
+  email: ray93978@gmail.com
+  bio: 
+  avatar: team/T10.jpg
+  social:
+     - title: linkedin
+       url: #
+     - title: facebook
+       url: https://www.facebook.com/saddfgdfhwedg/
+
+FuHsiang:
+  name: 李福祥
+  position: 國立台北科技大學人工智慧科技碩士學位學程 研究生
+  web: 
+  email: rookiep026@gmail.com
+  bio: 
+  avatar: team/U4.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+    - title: linkedin
+      url: #
+    - title: facebook
+      url: # 
+      
+YuanChi:
+  name: 許芫齊
+  position: 國立高雄科技大學電機工程系專題生
+  web: http://nkustislab.github.io
+  email: asm1478406@gmail.com
+  bio: 
+  avatar: team/U2.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+    - title: linkedin
+      url: #
+    - title: facebook
+      url: #
+ 
+You-Qian Lee:
+  name: 李佑謙
+  position: 華碩電腦機器人暨智慧應用事業處對話系統技術發展部工程師
+  web: 
+  email: #
+  bio: 
+  avatar: team/T2.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+  - title: linkedin
+    url: #
+  - title: facebook
+    url: https://www.facebook.com/profile.php?id=100003333577045
+#   - title: stack-overflow
+#     url: #
+
+Frank:
+  name: 王鳳鐸
+  position: 聚騰科技 軟體研發工程師
+  email: nn19680901@gmail.com
+  bio: 
+  avatar: team/T7.jpg
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: 
+
 Bohong:
   name: 王博弘
   position: 國立中山大學電機系碩士
@@ -20,8 +125,8 @@ Bohong:
 
 Wei-San Lin:
   name: Wei-San Lin
-  position: 台北醫學大學醫學資訊研究所研究生
-  web: http://nkustislab.github.io
+  position: 三軍總醫院資訊室 工程師
+  web: 
   email: 
   bio: 
   avatar: team/A2.jpg

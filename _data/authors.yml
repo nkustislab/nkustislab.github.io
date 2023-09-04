@@ -17,75 +17,37 @@ hjdai:
     - title: facebook
       url: https://www.facebook.com/hongjie.dai
 
-
-
-You-Qian Lee:
-  name: You-Qian Lee
-  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.                  
-  web: http://bigodatamining.github.io
-  email: #
+HanHsiang:
+  name: Han-Hsiang Wu
+  position: Undergraduate Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  web: http://nkustislab.github.io
+  email: sertg5k4ll@gmail.com
   bio: 
-  avatar: team/T2.jpg
+  avatar: team/U3.jpg
   twitter: 
   google:
     plus: 
-  social:
-  - title: linkedin
-    url: #
-  - title: facebook
-    url: https://www.facebook.com/profile.php?id=100003333577045
-
-You-Chen Zhang:    
-  name: You-Chen Zhang
-  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  web: http://bigodatamining.github.io
-  email: 
-  bio: 
-  avatar: team/T3.jpg
   social:
     - title: linkedin
-      url: 
+      url: #
     - title: facebook
-      url: 
+      url: #
 
-Guan-Ying Chen:
-  name: Guan-Ying Chen
-  email: 
-  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+ChengRong:
+  name: Cheng-Rong Ke
+  position: Undergraduate Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  web: http://nkustislab.github.io
+  email: C107154215@nkust.edu.tw
   bio: 
-  avatar: team/T4.jpg
+  avatar: team/U1.jpg
   twitter: 
   google:
     plus: 
   social:
-     - title: linkedin
-       url: #
-     - title: facebook
-       url: https://www.facebook.com/profile.php?id=100001967966464
-
-Chung-Xsing Liu:
-  name: Chung-Hsin Liu
-  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  email: rogerliu0723@gmail.com
-  bio: 
-  avatar: team/T5.jpg
-  social:
-     - title: linkedin
-       url: #
-     - title: facebook
-       url: https://www.facebook.com/profile.php?id=100000331235485
-
-Jui-Cheng:
-  name: Jui-Cheng Wei
-  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  email: ray93978@gmail.com
-  bio:
-  avatar: team/T10.jpg
-  social:
-     - title: linkedin
-       url: 
-     - title: facebook
-       url: https://www.facebook.com/saddfgdfhwedg/
+    - title: linkedin
+      url: #
+    - title: facebook
+      url: https://www.facebook.com/profile.php?id=100005093794630
 
 Chen-Kai Wang:
   name: Chen-Kai Wang
@@ -99,35 +61,12 @@ Chen-Kai Wang:
      - title: facebook
        url: https://www.facebook.com/dennisckwang
 
-Tatheer Hussain:
-  name: Tatheer Hussain
-  position: Ph.D. student in the Department of Electrical Engineering at NKUST, located in Koahsiung Taiwan. He also work as a research assistant at the National Institue of Cancer Research. Prior to this, he studied MSc at National Central University in Taiwan.
-  email: 
-  bio: 
-  avatar: team/TUNK1.png
-  social:
-     - title: linkedin
-       url: 
-     - title: facebook
-       url: 
 Chi-Feng:
   name: Chi-Feng Chung
   position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
   email: henrrycandy94210@gmail.com
   bio: 
   avatar: team/T9.jpg
-  social:
-     - title: linkedin
-       url: 
-     - title: facebook
-       url: 
-
-Frank:
-  name: Feng-Duo Wang
-  position: Senior Student of Department of Computer Science and Information Engineering of National Tsing Hua University, Hsinchu, Taiwan, R.O.C.
-  email: nn19680901@gmail.com
-  bio: 
-  avatar: team/T7.jpg
   social:
      - title: linkedin
        url: 
@@ -145,7 +84,6 @@ Jason:
        url: 
      - title: facebook
        url: 
- 
 
 Amber:
   name: Amber
@@ -159,6 +97,28 @@ Amber:
      - title: facebook
        url:   
 
+Tatheer Hussain:
+  name: Tatheer Hussain
+  position: Ph.D. student in the Department of Electrical Engineering at NKUST, located in Koahsiung Taiwan. He also work as a research assistant at the National Institue of Cancer Research. Prior to this, he studied MSc at National Central University in Taiwan.
+  email: 
+  bio: 
+  avatar: team/TUNK1.png
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: 
 
-
-
+Guan-Ying Chen:
+  name: Guan-Ying Chen
+  email: 
+  position: Research Assistant
+  avatar: team/T4.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+     - title: linkedin
+       url: #
+     - title: facebook
+       url: https://www.facebook.com/profile.php?id=100001967966464

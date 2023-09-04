@@ -18,86 +18,37 @@ hjdai:
 #   - title: stack-overflow
 #     url: #
 
-You-Qian Lee:
-  name: 李佑謙
-  position: 國立高雄科技大學電機工程系碩士                  
-  web: http://bigodatamining.github.io
-  email: #
+HanHsiang:
+  name: 吳漢祥
+  position: 國立高雄科技大學電機工程系碩士生
+  web: http://nkustislab.github.io
+  email: sertg5k4ll@gmail.com
   bio: 
-  avatar: team/T2.jpg
+  avatar: team/U3.jpg
   twitter: 
   google:
     plus: 
-  social:
-  - title: linkedin
-    url: #
-  - title: facebook
-    url: https://www.facebook.com/profile.php?id=100003333577045
-#   - title: stack-overflow
-#     url: #
-
-You-Chen Zhang:    
-  name: 張祐晨
-  position: 國立高雄科技大學電機工程系碩士
-  web: http://bigodatamining.github.io
-  email: #
-  bio: 
-  avatar: team/T3.jpg
   social:
     - title: linkedin
       url: #
     - title: facebook
-      url: #
-#   - title: twitter
-#     url: #
+      url: # 
 
-Guan-Ying Chen:
-  name: 陳冠穎
-  email: 
-  position: 國立高雄科技大學電機工程系碩士
+ChengRong:
+  name: 柯丞融
+  position: 國立高雄科技大學電機工程系碩士生
+  web: http://nkustislab.github.io
+  email: C107154215@nkust.edu.tw
   bio: 
-  avatar: team/T4.jpg
+  avatar: team/U1.jpg
   twitter: 
   google:
     plus: 
   social:
-     - title: linkedin
-       url: #
-     - title: facebook
-       url: https://www.facebook.com/profile.php?id=100001967966464
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
-
-Chung-Xsing Liu:
-  name: 劉崇鑫
-  position: 國立高雄科技大學電機工程系碩士
-  email: rogerliu0723@gmail.com
-  bio: 
-  avatar: team/T5.jpg
-  social:
-     - title: linkedin
-       url: #
-     - title: facebook
-       url: https://www.facebook.com/profile.php?id=100000331235485
-#    - title: twitter
-#      url: #
-#    - title: google-plus
-#      url: #
-
-Jui-Cheng Wei:
-  name: 魏瑞成
-  position: 國立高雄科技大學電機工程系碩士
-  email: ray93978@gmail.com
-  bio: 
-  avatar: team/T10.jpg
-  social:
-     - title: linkedin
-       url: #
-     - title: facebook
-       url: https://www.facebook.com/saddfgdfhwedg/
-
+    - title: linkedin
+      url: #
+    - title: facebook
+      url: https://www.facebook.com/profile.php?id=100005093794630
 
 Chi-Feng Chung:
   name: 鐘麒豐
@@ -126,17 +77,6 @@ Chen-Kai Wang:
 #      url: #
 #    - title: google-plus
 #      url: #
-Frank:
-  name: 王鳳鐸
-  position: 國立清華大學資訊工程學系研究生
-  email: nn19680901@gmail.com
-  bio: 
-  avatar: team/T7.jpg
-  social:
-     - title: linkedin
-       url: 
-     - title: facebook
-       url: 
        
 Jason:
   name: 蘇矩賢
@@ -164,4 +104,23 @@ Amber:
        url: 
      - title: facebook
        url: 
+
+Guan-Ying Chen:
+  name: 陳冠穎
+  email: 
+  position: 研究助理
+  bio: 
+  avatar: team/T4.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+     - title: linkedin
+       url: #
+     - title: facebook
+       url: https://www.facebook.com/profile.php?id=100001967966464
+#    - title: twitter
+#      url: #
+#    - title: google-plus
+#      url: #
 

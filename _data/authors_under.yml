@@ -1,75 +1,5 @@
 # Authors_undergraduate
 
-ChengRong:
-  name: Cheng-Rong Ke
-  position: Undergraduate Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  web: http://nkustislab.github.io
-  email: C107154215@nkust.edu.tw
-  bio: 
-  avatar: team/U1.jpg
-  twitter: 
-  google:
-    plus: 
-  social:
-    - title: linkedin
-      url: #
-    - title: facebook
-      url: https://www.facebook.com/profile.php?id=100005093794630
-
-       
-       
-
-YuanChi:
-  name: Yuan-Chi Hsu
-  position: Undergraduate Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  web: http://nkustislab.github.io
-  email: asm1478406@gmail.com
-  bio: 
-  avatar: team/U2.jpg
-  twitter: 
-  google:
-    plus: 
-  social:
-    - title: linkedin
-      url: #
-    - title: facebook
-      url: #
- 
- 
-HanHsiang:
-  name: Han-Hsiang Wu
-  position: Undergraduate Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  web: http://nkustislab.github.io
-  email: sertg5k4ll@gmail.com
-  bio: 
-  avatar: team/U3.jpg
-  twitter: 
-  google:
-    plus: 
-  social:
-    - title: linkedin
-      url: #
-    - title: facebook
-      url: #
-    
-    
-FuHsiang:
-  name: Fu-Hsiang Li
-  position: Undergraduate Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
-  web: http://nkustislab.github.io
-  email: rookiep026@gmail.com
-  bio: 
-  avatar: team/U4.jpg
-  twitter: 
-  google:
-    plus: 
-  social:
-    - title: linkedin
-      url: #
-    - title: facebook
-      url: #
-      
-
 ChuanWen:
   name: Chuan-Wen Wang
   position: Undergraduate Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
@@ -85,8 +15,6 @@ ChuanWen:
       url: #
     - title: facebook
       url: #
-      
-
 
 YenTung:
   name: Yen-Tung Chen

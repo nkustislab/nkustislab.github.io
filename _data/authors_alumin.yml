@@ -1,5 +1,102 @@
 # Authors_alumin
 
+You-Chen Zhang:    
+  name: You-Chen Zhang
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  web:
+  email: 
+  bio: 
+  avatar: team/T3.jpg
+  social:
+    - title: linkedin
+      url: 
+    - title: facebook
+      url: 
+
+Chung-Xsing Liu:
+  name: Chung-Hsin Liu
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  email: rogerliu0723@gmail.com
+  bio: 
+  avatar: team/T5.jpg
+  social:
+     - title: linkedin
+       url: #
+     - title: facebook
+       url: https://www.facebook.com/profile.php?id=100000331235485
+
+Jui-Cheng:
+  name: Jui-Cheng Wei
+  position: Master Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  email: ray93978@gmail.com
+  bio:
+  avatar: team/T10.jpg
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: https://www.facebook.com/saddfgdfhwedg/
+
+FuHsiang:
+  name: Fu-Hsiang Li
+  position: Master Student of Taipei Tech College of Electrical Engineering and Computer Science of National Taipei University of Technology
+  web:
+  email: rookiep026@gmail.com
+  bio: 
+  avatar: team/U4.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+    - title: linkedin
+      url: #
+    - title: facebook
+      url: #
+
+YuanChi:
+  name: Yuan-Chi Hsu
+  position: Undergraduate Student of Department of Electrical Engineering of National Kaohsiung University of Science and Technology , Kaohsiung , Taiwan , R.O.C.
+  web: http://nkustislab.github.io
+  email: asm1478406@gmail.com
+  bio: 
+  avatar: team/U2.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+    - title: linkedin
+      url: #
+    - title: facebook
+      url: #
+
+You-Qian Lee:
+  name: You-Qian Lee
+  position: Dialogue System Technical Department, Intelligent Robot, Asustek Computer Inc.
+  web: 
+  email: #
+  bio: 
+  avatar: team/T2.jpg
+  twitter: 
+  google:
+    plus: 
+  social:
+  - title: linkedin
+    url: #
+  - title: facebook
+    url: https://www.facebook.com/profile.php?id=100003333577045
+
+Frank:
+  name: Feng-Duo Wang
+  position: GT Booster Inc.
+  email: nn19680901@gmail.com
+  bio: 
+  avatar: team/T7.jpg
+  social:
+     - title: linkedin
+       url: 
+     - title: facebook
+       url: 
+
 Bohong:
   name: Bo-Hong Wang
   position: Master Student of Department of Electrical Engineering of National Sun Yat-sen University, Kaohsiung, Taiwan, R.O.C.
@@ -20,7 +117,7 @@ Bohong:
 
 Wei-San Lin:
   name: Wei-San Lin
-  position: Master Student of Graduate Institute of Biomedical Informatics of Taipei Medical University, Taipei, Taiwan, R.O.C.
+  position: Tri-Service General Hospital, Software Engineer
   web: http://nkustislab.github.io
   email: josan053@hotmail.com
   bio: 
