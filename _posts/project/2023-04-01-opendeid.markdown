@@ -1,0 +1,16 @@
+---
+title: AI CUP-隱私保護與醫學數據標準化競賽：解碼臨床病例、讓數據說故事
+subtitle: Clinical Natural Language Processing
+layout: post
+modal-id: 1
+date: 2023-04-01
+img: de-identificationgui.png
+thumbnail: de-identificationgui-thumbnail.png
+alt: image-alt
+project-date: April 2023
+client: MOU
+category: Clinical Natural Language Processing
+categories: active_project
+description: <p>去識別化與時間分析語料庫</p>
+post: 
+---

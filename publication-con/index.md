@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Conferences/Seminars
+title: Conference/Workshop
 excerpt: "An archive of publications sorted by date."
 search_omit: true
 ---

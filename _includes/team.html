@@ -216,11 +216,11 @@
 			{% for member_hash in site.data.authors_alumin %}
 				{% assign member = member_hash[1] %}
 				
-				<div class="col-sm-6">					
+				<div class="col-sm-1">					
 					<div class="team-member">
-						<img src="images/{{ member.avatar }}" class="img-responsive img-square" alt=""/>
-						<h4>{{ member.name }}</h4>
-						<p class="text-muted">{{ member.position }}</p>
+						<img src="images/{{ member.avatar }}" class="img-responsive img-circle" alt=""/>
+						<b style="font-size: 5%">{{ member.name }}</b>
+						<p style="font-size: 1%">{{ member.position }}</p>
 						<ul class="list-inline social-buttons">
 							{% for network in member.social %}
 								<li>
@@ -238,7 +238,8 @@
 <section id="team" class="bg-light-gray">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
-				<p class="large ">We cooperate with the Institute of Information Science, Academia Sinica, Graduate Institute of Biomedical Informatics, Taipei Medical University, National Health Research Institutes, Kaohsiung Medical University and School of Public Health and Community Medicine, University of New South Wales.</p>
+				<p class="large ">Our laboratory is currently collaborating with iLinker, National Health Research Institutes, Kaohsiung Medical University, multiple medical institutions across Taiwan, as well as the Cancer Translational Research Network at the University of New South Wales. If you are interested in our research, we look forward to you contacting us.
+				</p>
 			</div>
 		</div>
 	</div>
