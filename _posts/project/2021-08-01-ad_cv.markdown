@@ -1,0 +1,19 @@
+---
+title: 精準廣告行銷
+subtitle: Artificial Intelligence
+layout: post
+modal-id: 4
+date: 2021-08-01
+img: aicup.png
+image:
+  img: aicup.png
+  feature: aicup.png
+  thumbnail: CancerReserch-thumbnail.png
+alt: image-alt
+project-date: August 2021
+client: iLinker
+category: Computer Vision, Natural Language Processing
+categories: active_project
+description: <p></p>
+
+---

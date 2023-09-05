@@ -1,12 +1,13 @@
 ---
 title: LiverCancerMarkerRIF
 subtitle: Bio-Text Mining (Database)
-layout: post
-modal-id: 4
+layout: project
+modal-id: 7
 date: 2014-08-01
-img: livercancermarkerrif.png
-thumbnail: livercancermarkerrif-thumbnail.png
-alt: image-alt
+image:
+  img: livercancermarkerrif.png
+  thumbnail: livercancermarkerrif-thumbnail.png
+  alt: A NLP-Assisted interactive curation system.
 project-date: April 2014
 client: NHRI/BCT
 category: Biomedical Text Mining

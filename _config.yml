@@ -33,8 +33,8 @@ kramdown:
 
 mathjax: true
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+include: [".htaccess", "docs"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor", "lab.prj"]
 
 
 # Site owner
@@ -60,7 +60,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  redmine: http://pubmedex.iis.sinica.edu.tw
+  redmine: http://islab.ee.nkust.edu.tw:30002/
 
 # Postal address (add as many lines as necessary)
 address:

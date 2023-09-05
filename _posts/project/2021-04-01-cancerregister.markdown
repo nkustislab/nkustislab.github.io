@@ -1,12 +1,13 @@
 ---
 title: 人工智慧導入肺癌早期偵測與癌症登記之研發
 subtitle: Clinical Natural Language Processing 
-layout: post
-modal-id: 3
+layout: project
+modal-id: 5
 date: 2021-04-01
-img: LungCnacerRegister.png
-thumbnail: LungCnacerRegister-thumbnail.png
-alt: A text-mined network visualization and curation system.
+image:
+  img: LungCnacerRegister.png
+  thumbnail: LungCnacerRegister-thumbnail.png
+  alt:
 project-date: April 2021
 client: NHRI
 category: Clinical Natural Language Processing

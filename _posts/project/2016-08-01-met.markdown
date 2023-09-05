@@ -2,11 +2,12 @@
 title: MET network in PubMed
 subtitle: Bio-Text Mining (Curation Tool)
 layout: home
-modal-id: 5
+modal-id: 6
 date: 2016-08-01
-img: met.png
-thumbnail: met-thumbnail.png
-alt: A text-mined network visualization and curation system.
+image:
+  img: met.png
+  thumbnail: met-thumbnail.png
+  alt: A text-mined network visualization and curation system.
 project-date: August 2016
 client: NHRI
 category: Biomedical Text Mining

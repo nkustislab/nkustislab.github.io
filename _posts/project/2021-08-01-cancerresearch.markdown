@@ -2,11 +2,12 @@
 title: 癌症研究跨機構合作平台及其整合應用
 subtitle: Clinical Natural Language Processing
 layout: post
-modal-id: 2
+modal-id: 3
 date: 2021-08-01
-img: CancerReserch.png
-thumbnail: CancerReserch-thumbnail.png
-alt: image-alt
+image:
+  img: CancerReserch.png
+  thumbnail: CancerReserch-thumbnail.png
+  alt: 
 project-date: August 2021
 client: NHRI
 category: Clinical Natural Language Processing

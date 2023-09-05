@@ -1,16 +1,19 @@
 ---
 title: AI CUP-隱私保護與醫學數據標準化競賽：解碼臨床病例、讓數據說故事
+headline: OpenDeid Corpus
 subtitle: Clinical Natural Language Processing
-layout: post
+layout: project
 modal-id: 1
 date: 2023-04-01
-img: de-identificationgui.png
-thumbnail: de-identificationgui-thumbnail.png
-alt: image-alt
+image:
+  img: aicup.png
+  feature: aicup.png
+  thumbnail: aicup-thumbnail.png
+  alt:
 project-date: April 2023
 client: MOU
 category: Clinical Natural Language Processing
 categories: active_project
-description: <p>去識別化與時間分析語料庫</p>
-post: 
+description: <p>與澳洲新南威爾斯大學合作開發之去識別化與時間分析語料庫。</p>
+post: 本計劃案語料的標註準則請參考<a href="/docs/project/aicup/guideline.pdf" target="_blank">這個</a>連結。
 ---

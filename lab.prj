@@ -1,0 +1,19 @@
+[Project ID]
+Signature=UE Proj: v.1
+Unicode=2
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+FilterU=
+Include Sub Directories=1
+Project TagfileU=
+Project WordfileU=
+Project TpFileU=
+Create Tagfile=0
+[FilesU]
+0=.+AFwAXw-data+AFw-
+1=.+AFwAXw-posts+AFw-
+2=.+AFwAXw-includes+AFw-
+3=.+AFw-project+AFw-
+4=.+AFw-publication+AFw-
+5=.+AFwAXw-layouts+AFw-
