@@ -14,6 +14,6 @@ project-date: August 2021
 client: iLinker
 category: Computer Vision, Natural Language Processing
 categories: active_project
-description: <p></p>
-
+description: <p>與 iLinker 合作開發之廣告圖像資料庫。</p>
+post: 
 ---
