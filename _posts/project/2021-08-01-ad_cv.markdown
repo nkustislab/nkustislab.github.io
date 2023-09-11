@@ -1,7 +1,7 @@
 ---
 title: 精準廣告行銷
 subtitle: Artificial Intelligence
-layout: post
+layout: project
 modal-id: 4
 date: 2021-08-01
 img: aicup.png
