@@ -6,14 +6,14 @@ modal-id: 4
 date: 2021-08-01
 img: aicup.png
 image:
-  img: aicup.png
-  feature: aicup.png
-  thumbnail: CancerReserch-thumbnail.png
+  img: ad_classification.png
+  feature: ad_classification.png
+  thumbnail: ad_classification-thumbnail.png
 alt: image-alt
 project-date: August 2021
 client: iLinker
 category: Computer Vision, Natural Language Processing
 categories: active_project
-description: <p>與 iLinker 合作開發之廣告圖像資料庫。</p>
-post: 
+description: <p>與 iLinker 合作開發之廣告圖像人工智慧模型訓練資料集。</p>
+post: <p>數位廣告素材為在網頁、應用程式或其他數位環境中向使用者放送的廣告內容。一個成功的數位廣告須具備吸引人的素材與文案和精準的受眾選擇，其中素材的製作成本最高且影響廣告成效的效果最為顯著。過往數位廣告素材多採用 A/B測試的方式，透過消費者直接測試，然而這種的測試方式需要耗費大量的金錢與時間才有辦法測試出結果。因此，本計畫透過深度學習發展廣告圖片分類模型與廣告物件偵測模型，據此在數位廣告製作的過程中提醒設計師所設計的廣告素材是否與目標吻合。本計畫引入了一種新的測量方法，用於計算多標籤圖片標註者之間的一致性。在 Krippendorf 的方法基礎上，本計畫提出了一個具體應用於多標籤類別與物件偵測的範例。本計畫透過基於梯度顯著圖（Gradient-based Saliency map）與注意力視覺化的分析，深入了解模型的決策過程並確定影響其預測的因素。總而言之，本計畫製作的資料集和開發的深度學習模型可以為數位廣告設計師提供有用的參考價值，並提供關於設計的廣告素材是否符合目標的建議。此外，本計畫可以透過圖片分類模型過濾掉不需要的廣告素材，提前修正廣告素材，減少不必要的測試成本與反應時間，以提升廣告之成效與銷售業績。</p><p>本計畫使用的標註一致度計算程式<a href="https://github.com/ray12978/multi-KA_calculator.git" target="_blank">github連結</a></p>
 ---
