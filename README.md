@@ -1,4 +1,4 @@
-# About the lab 
+﻿# About the lab 
 ## ISLab 
 Welcome to the Intelligent Systems Lab! Our team specializes in data mining, machine learning, and natural language processing, with a focus on the biomedical and molecular biology domains. Our goal is to unlock insights hidden in vast unstructured data through the use of advanced technologies such as artificial intelligence and computer vision.
 
@@ -43,5 +43,5 @@ We have developed several software tools, such as:
  So Simple Theme, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
 
 * Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
- [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/)
+ [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/)...
 
