@@ -43,5 +43,5 @@ We have developed several software tools, such as:
  So Simple Theme, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
 
 * Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
- [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/)...
+ [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/)
 
