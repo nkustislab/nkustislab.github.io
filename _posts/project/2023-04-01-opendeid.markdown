@@ -15,5 +15,5 @@ client: MOU
 category: Clinical Natural Language Processing
 categories: active_project
 description: <p>與澳洲新南威爾斯大學合作開發之去識別化與時間分析語料庫。</p>
-post: 本計劃案語料的標註準則請參考<a href="/docs/project/aicup/guideline.pdf" target="_blank">這個</a>連結121212。
+post: 本計劃案語料的標註準則請參考<a href="/docs/project/aicup/guideline.pdf" target="_blank">這個</a>連結。<br>123123123
 ---
