@@ -1,4 +1,4 @@
-# About the lab 
+﻿# About the lab 
 ## ISLab 
 Welcome to the Intelligent Systems Lab! Our team specializes in data mining, machine learning, and natural language processing, with a focus on the biomedical and molecular biology domains. Our goal is to unlock insights hidden in vast unstructured data through the use of advanced technologies such as artificial intelligence and computer vision.
 
