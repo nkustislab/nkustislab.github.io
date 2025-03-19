@@ -15,9 +15,5 @@ client: MOU
 category: Clinical Natural Language Processing
 categories: active_project
 description: <p>與澳洲新南威爾斯大學合作開發之去識別化與時間分析語料庫。</p>
-post: 本計劃案語料的標註準則請參考<a href="/docs/project/aicup/guideline.pdf" target="_blank">這個</a>連結。<br>本計劃案的資料集在使用前必須簽署<a href="/docs/project/aicup/OpenDeID_Corups_DUA_2021_1.pdf" target="_blank"> DUA </a>協議書，並將簽署後的檔案回傳至 cuper80@gmail.com 信箱。<br>若要參與本計畫案所舉辦的競賽請參考 <a href="/docs/project/aicup/AI CUP 2023-隱私保護與醫學數據標準化競賽-解碼臨床病例_讓數據說故事之報名流程0915.pdf" target="_blank">競賽報名辦法</a> 。
-
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<div id="opendeid-sankey" style="width: 100%; height: 800px;"></div>
-<script src="/assets/js/sankey.js"></script>
-
+post: 本計劃案語料的標註準則請參考<a href="/docs/project/aicup/guideline.pdf" target="_blank">這個</a>連結。<br>本計劃案的資料集在使用前必須簽署<a href="/docs/project/aicup/OpenDeID_Corups_DUA_2021_1.pdf" target="_blank"> DUA </a>協議書，並將簽署後的檔案回傳至 cuper80@gmail.com 信箱。<br>若要參與本計畫案所舉辦的競賽請參考 <a href="/docs/project/aicup/AI CUP 2023-隱私保護與醫學數據標準化競賽-解碼臨床病例_讓數據說故事之報名流程0915.pdf" target="_blank">競賽報名辦法</a><p><a href="/visulization/opendeid-sankey.html" class="btn btn-primary" style="padding:20px 40px;font-size:20px;border-radius:10px;">View Interactive Opendeid Diagram</a></p> 
+---
