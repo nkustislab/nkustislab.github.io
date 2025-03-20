@@ -13,5 +13,4 @@ client: NHRI/BCT
 category: Biomedical Text Mining
 categories: active_project
 description: <p><a href="http://btm.tmu.edu.tw/LiverCancerMarkerRIF/" target="_blank">LiverCancerMarkerRIF</a> is a liver cancer biomarker database along with a text-mining-based curation system, which allows users to retrieve biomarker-related narrations and curate supporting evidence on liver cancer biomarkers directly while browsing PubMed.</p><p>Fund# MOST 104-2221-E-143-005</p>
-
 ---
