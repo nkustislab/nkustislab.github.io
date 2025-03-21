@@ -323,8 +323,8 @@
       .attr("d", arc)
       .style("fill", d => color(d.data.name))
       .style("stroke", "#fff")
-      .style("stroke-width", 0.5)
-      .style("opacity", 0.7)
+      .style("stroke-width", 0.2)
+      .style("opacity", 0.9)
       .attr("class", "slice");
 
     // Add labels and values in separate lines
@@ -347,6 +347,7 @@
       .style("fill", "white")
       .style("text-anchor", "middle")
       .style("font-size", "12px");
+      
   }
 
   // Prepare data for Corpus-1 and Corpus-2
@@ -355,13 +356,17 @@
     main: main1[i],
     sub: sub1[i],
     value: value1[i]
-  }));
+  })).filter(d => d.sub !== null); // Remove entries where sub is null;
+
   const data2 = dataset2.map((d, i) => ({
     dataset: dataset2[i],
     main: main2[i],
     sub: sub2[i],
     value: value2[i]
-  }));
+  })).filter(d => d.sub !== null); // Remove entries where sub is null
+
+  
+
 
   // Create Sunburst charts
   createSunburstChart(data1, 'chart-corpus-1');
