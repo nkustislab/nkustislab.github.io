@@ -17,6 +17,7 @@ description: |
 
   <p> APPENDIX A. Report Types Included in This Study</p>
  The report types considered in this study including: angiogram reports, cardiac ultrasound (US) reports, colonoscopy reports, computed tomography reports, echocardiogram reports, endoscopy reports, intervention reports, endoscopic retrograde cholangiopancreatography examination reports, lower limb arterial US reports, lower limb venous US reports, magnetic resonance imaging reports, mammography reports, nuclear medicine reports, pathology reports, plain file reports, special reports and transesophageal echocardiogram reports.
+ 
   <p><a href="/docs/project/aicup/Appendix A.docx" target="_blank">下載技術報告</a></p>
 
   <p><a href="/docs/project/aicup/Appendix B.docx" target="_blank">下載技術報告</a></p>
